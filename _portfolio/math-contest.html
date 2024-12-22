@@ -1,14 +1,23 @@
----
-title: "Math Contest"
-excerpt: "Stuffs about Math Contest (including proposals, handouts, and past achievements)"
-collection: math
----
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Contest</title>
     <script type="text/javascript" async
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        h1, h2 {
+            color: #333;
+        }
         .problem-box {
             border: 2px solid #ccc;
             border-radius: 8px;
@@ -24,65 +33,79 @@ collection: math
         .problem-body {
             margin-top: 10px;
         }
-        .problem-solution {
-            margin-top: 15px;
-            border-top: 1px solid #ddd;
-            padding-top: 10px;
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        li {
+            margin: 5px 0;
         }
     </style>
 </head>
-I like mathematics and problem solving a lot -- and that's probably reflected a lot in my involvement in math contest throughout the years
+<body>
+    <h1>Math Contest</h1>
+    <p>I like mathematics and problem solving a lot -- and that's probably reflected in my involvement in math contests throughout the years.</p>
 
+    <h2>Teaching & Achievements</h2>
+    <p>Some of my notable past achievements include:</p>
+    <ul>
+        <li><strong>Absolute Winner</strong>, Indonesia National Math Olympiad 2019</li>
+        <li><strong>Honorable Mention</strong>, Romanian Master of Mathematics 2020</li>
+        <li><strong>Bronze Medal</strong>, Asia Pacific Mathematics Olympiad 2020</li>
+        <li><strong>Bronze Medal</strong>, Tuymaada International Olympiad 2020</li>
+        <li><strong>Top 500</strong>, the William Lowell Putnam Mathematical Competition</li>
+        <li><strong>Bronze Medal</strong>, Iranian Geometry Olympiad 2018 and 2019</li>
+        <li><strong>Second Prize</strong>, European Mathematical Cup 2020</li>
+    </ul>
+    <p>I was also actively involved in <strong>KTO Matematika</strong>, an Indonesian nonprofit math olympiad community founded by Indonesian math olympiad alumni. I was the head of KTOM in 2020, and nowadays occasionally propose problems and perform quality checks.</p>
+    <p>Nowadays, I assist the Indonesian IMO team by teaching, grading, proposing problems, and doing quality checks for problem shortlists.</p>
+    <p>I am open to teaching, feel free to contact me for these type of inquiries.</p>
 
-Teaching & Achievements
-=========
-I have been active in math contest as a participant since. Some of my notable past achievements include: 
-- Absolute Winner, Indonesia National Math Olympiad 2019
-- Honorable Mention, Romanian Master of Mathematics 2020
-- Bronze Medal, Asia Pacific Mathematics Olympiad 2020
-- Bronze Medal, Tuymaada International Olympiad 2020
-- Top 500, the William Lowell Putnam Mathematical Competition
-- Bronze Medal, Iranian Geometry Olympiad 2018 and 2019
-- Second Prize, European Mathematical Cup 2020 
+    <h2>Problem Proposals</h2>
+    <p>I actively propose problems to math contests. Here is a selection of some of my past problem proposals:</p>
 
-I also propose problems on KTO Matematika, an Indonesia nonprofit math olympiad community founded by Indonesian math olympiad alumni. 
-I was also the head of KTOM, and nowadays ocassionally problem proposal and do some quality checking as well. 
-
-Nowadays, I also help the Indonesian IMO team for various tasks like quality check, grading and problem proposing to help in part of the major national Indonesian math olympiads for IMO team selection. 
-I am open to teaching, you can inquire me through my email. 
-
-
-
-
-
-Problem Proposals
-=========
-Here is a selection of some of my past problem proposals
-
-
-<div class="problem-box">
-    <div class="problem-title">IMO 2024/2</div>
-    <div class="problem-body">
-    Determine all pairs $(a,b)$ of positive integers for which there exist positive integers $g$ and $N$ such that 
-    \[ \gcd(a^n + b, b ^n + a) = g \]
-    holds for all integers $n \ge N$.     
+    <div class="problem-box">
+        <div class="problem-title">IMO 2024/2 (N4)</div>
+        <div class="problem-body">
+            <p>Determine all pairs \( (a,b) \) of positive integers for which there exist positive integers \( g \) and \( N \) such that:</p>
+            <p>\[ \gcd(a^n + b, b^n + a) = g \]</p>
+            <p>holds for all integers \( n \ge N \).</p>
+        </div>
     </div>
-</div>
 
-<div class="problem-box">
-    <div class="problem-title">IMO 2024/2 (N4)</div>
-    <div class="problem-body">
-    Determine all pairs $(a,b)$ of positive integers for which there exist positive integers $g$ and $N$ such that 
-    \[ \gcd(a^n + b, b ^n + a) = g \]
-    holds for all integers $n \ge N$.     
+    <div class="problem-box">
+        <div class="problem-title">Indonesia MO 2023/2</div>
+        <div class="problem-body">
+            Determine all functions \( f: \mathbb{R} \to \mathbb{R} \) such that the following equation holds for every real \( x,y \): 
+            \[ f(f(x) + y) = \lfloor x + f(f(y)) \rfloor \]
+        </div>
     </div>
-</div>
 
-<div class="problem-box">
-    <div class="problem-title">IMO Shortlist 2022 A6</div>
-    <div class="problem-body">
-    Let $\mathbb{R}$ be the set of real numbers. We denote by $\mathcal{F}$ the set of all functions $f: \mathbb{R} \to \mathbb{R}$ such that 
-    \[ f(x+f(y)) = f(x) + f(y) \]
-    for every $x, y\in \mathbb{R}$. Find all rational numbers $q$ such that for every function $f \in \mathcal{F}$, there exists some $z \in \mathbb{R}$ satisfying $f(z) = qz$.  
+    <div class="problem-box">
+        <div class="problem-title">INAMO 2023/8</div>
+        <div class="problem-body">
+            Let \( a,b,c \) be three distinct positive integers. Define \( S(a,b,c) \) as the set of all rational roots of \( px^2 + qx + r = 0 \) for every permutation \( (p,q,r) \) of \( (a,b,c)\). 
+            For example, \( S(1,2,3) = \{ -1, -2, -1/2 \} \) because the equation \( x^2 + 3x + 2 \) has roots \( -1 \) and \( -2 \), the eequation \( 2x^2 + 3x + 1 = 0 \) has roots \( -1 \) and \( -1/2 \), and for all the other permutations of \( (1, 2, 3) \), the quadratic equations formed don't have any rational roots. 
+
+            Determine the maximum number of elements in \( S(a,b,c) \). 
+        </div>
     </div>
-</div>
+
+    <div class="problem-box">
+        <div class="problem-title">IMO Shortlist 2022 A6</div>
+        <div class="problem-body">
+            <p>Let \( \mathbb{R} \) be the set of real numbers. We denote by \( \mathcal{F} \) the set of all functions \( f: \mathbb{R} \to \mathbb{R} \) such that:</p>
+            <p>\[ f(x+f(y)) = f(x) + f(y) \]</p>
+            <p>for every \( x, y \in \mathbb{R} \). Find all rational numbers \( q \) such that for every function \( f \in \mathcal{F} \), there exists some \( z \in \mathbb{R} \) satisfying \( f(z) = qz \).</p>
+        </div>
+    </div>
+
+    <div class="problem-box">
+        <div class="problem-title">APMO 2022/5</div>
+        <div class="problem-body">
+            Let \( a,b,c,d \) be real numbers such that \( a^2 + b^2 + c^2 + d^2 = 1 \). Determine the minimum value of \( (a - b)(b - c)(c - d)(d - a) \) and determine all values of \( a,b,c,d \) such that the minimum value is achieved. 
+        </div>
+    </div>
+
+</body>
+</html>
