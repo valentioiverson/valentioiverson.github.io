@@ -8,20 +8,46 @@ collection: math
     <script type="text/javascript" async
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
-  </head>
+    <style>
+        .problem-box {
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            margin: 20px 0;
+        }
+        .problem-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .problem-body {
+            margin-top: 10px;
+        }
+        .problem-solution {
+            margin-top: 15px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+    </style>
+</head>
 
+<p>I like math and problem solving -- and thus I often do math contests and propose problems to make them more challenging. Here's an example of a math problem:</p>
 
-  <p>I like math and problem solving -- and thus I often do math contests and propose problems to make them more challenging. Here's an example of a math problem:</p>
-
-  <p>Consider the following equation:</p>
-  <p>
-    \( x^2 + y^2 = z^2 \)
-  </p>
-  
-  <p>Where \( x, y, z \) are integers, and the task is to find all the Pythagorean triples. This is a classic problem in number theory.</p>
-  
-  <p>The solution can be derived using:</p>
-  <p>
-    \( a = m^2 - n^2, \quad b = 2mn, \quad c = m^2 + n^2 \)
-  </p>
-  <p>Where \( m \) and \( n \) are integers, and \( m > n \). This formula generates all primitive Pythagorean triples.</p>
+<div class="problem-box">
+    <div class="problem-title">Pythagorean Triples</div>
+    <div class="problem-body">
+        Consider the following equation:
+        <p>
+            \( x^2 + y^2 = z^2 \)
+        </p>
+        Where \( x, y, z \) are integers. The task is to find all the Pythagorean triples. This is a classic problem in number theory.
+    </div>
+    <div class="problem-solution">
+        <b>Solution:</b> The solution can be derived using the formula:
+        <p>
+            \( a = m^2 - n^2, \quad b = 2mn, \quad c = m^2 + n^2 \)
+        </p>
+        Where \( m \) and \( n \) are integers, with \( m > n \). This formula generates all primitive Pythagorean triples.
+    </div>
+</div>
