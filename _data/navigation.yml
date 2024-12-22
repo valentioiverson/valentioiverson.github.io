@@ -11,8 +11,8 @@ main:
   # - title: "Talks"
   #   url: /talks/    
 
-  - title: "Experiences & Awards"
-    url: /exp/    
+  # - title: "Experiences & Awards"
+  #   url: /exp/    
     
   - title: "Math"
     url: /math/
