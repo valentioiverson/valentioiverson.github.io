@@ -1,16 +1,12 @@
 ---
 title: "Coursework"
-excerpt: "Here is a list of the classes I have taken (or audited) at the University of Waterloo -- I may have attached some of the notes I've taken in classes here."
+excerpt: "Here is a list of the classes I have taken (or audited) over the years -- I may have attached some of the notes for the classes here."
 collection: math
 ---
 
-
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* BMath in Computer Science, University of Waterloo, 2026 (expected)
 
 Winter 2025 (Tentative)
 ======
