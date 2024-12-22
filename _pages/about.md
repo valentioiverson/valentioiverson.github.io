@@ -11,7 +11,7 @@ Hi! I'm Valentio Iverson.
 
 I am currently a fourth-year undergraduate student at the University of Waterloo majoring in computer science, and minoring in combinatorics & optimization, and pure mathematics. I am originally from Medan, North Sumatra, Indonesia. Outside of classes, I actively work in various research problems I find interesting.
 
-My primary research interests focus on mathematical methods in data science and machine learning, including both classical areas like computational learning theory and modern areas like deep learning theory. 
+My primary research interests focus on mathematical methods in data science and machine learning, although I am open to working on anything that is interesting to me. 
 
 I plan to pursue graduate studies in machine learning theory in 2026. 
 
