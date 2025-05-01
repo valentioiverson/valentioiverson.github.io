@@ -11,7 +11,7 @@ redirect_from:
 
 Hi! I'm **Valentio Iverson**, a fourth-year undergraduate at the University of Waterloo, majoring in Computer Science with minors in Combinatorics & Optimization and Pure Mathematics. Originally from Medan, North Sumatra, Indonesia, I'm passionate about mathematical methods in data science and machine learning. I actively pursue research problems that spark my curiosity and plan to begin graduate studies in machine learning theory in 2026 (expected B.S. May 2026).
 
-Check out my [Math Stuff](/math/) page for cool math content like contest handouts, problem proposals, and university coursework or notes.
+Check out my [Math](/math/) page for cool math content like contest handouts, problem proposals, and university coursework projects or notes.
 
 ## Research Interests
 
