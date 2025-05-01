@@ -1,22 +1,18 @@
 ---
-title: "Sampling Secrets: Why Monte Carlo Methods Are Math’s Dice Roll"
-date: 2025-05-01
-permalink: /posts/2025/05/sampling-1/
+title: "Sampling 1"
+excerpt: "Starting my journey to log concave sampling"
+collection: blog
 tags:
   - mathematics
   - machine learning
   - sampling
-categories:
-  - Math Explorations
+layout: single
+author_profile: true
+permalink: /sampling-1/
 ---
 
 Just a template for now -- will update soon enough
 
-Hey! I’ve been diving into sampling techniques lately, and I thought I’d share some cool insights about **Monte Carlo methods**—a mathematical tool that’s like rolling dice to solve tough problems. Whether you’re approximating integrals or training machine learning models, these methods are surprisingly powerful. Let’s break it down!
-
-## What Are Monte Carlo Methods?
-
-Monte Carlo methods are a class of computational algorithms that use random sampling to estimate numerical results. Named after the famous casino city, they rely on the idea that random “dice rolls” can approximate solutions to problems that are too complex for exact calculations.
 
 Imagine you want to compute the area under a tricky curve, like \( f(x) = \sin(x^2) \), from \( x = 0 \) to \( x = 1 \). Analytically, it’s a mess. Monte Carlo makes it simple:
 1. Generate random points \((x, y)\) in a rectangle containing the curve (e.g., \( x \in [0, 1] \), \( y \in [0, 1] \)).

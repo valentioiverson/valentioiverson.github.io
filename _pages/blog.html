@@ -9,13 +9,12 @@ redirect_from:
 ---
 
 
+{% include base_path %}
 I plan to post regularly on this blog about topics that catch my interest, likely diving into what I’m currently reading in machine learning and math.
 
 {% if site.posts.size == 0 %}
   <p>No posts yet, but I'm working on some exciting content. Stay tuned!</p>
 {% endif %}
-
-{% include base_path %}
 
 {% for post in site.posts %}
   {% include archive-single.html %}
