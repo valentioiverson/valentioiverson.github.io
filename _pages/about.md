@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Valentio Iverson"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -28,4 +28,4 @@ Feel free to reach out for collaborations or inquiries:
 
 ---
 
-<div class="last-updated">Website last updated on {{ site.time | date: '%B %d, %Y' }}</div>
+<div class="last-updated">Website last updated on {{ site.time | date: '%B, %Y' }}</div>
