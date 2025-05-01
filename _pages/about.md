@@ -25,8 +25,7 @@ My research lies at the intersection of machine learning and theoretical compute
 
 ## Contact
 
-Feel free to reach out for collaborations or inquiries:  
-📧 [viverson@uwaterloo.ca](mailto:viverson@uwaterloo.ca)
+Feel free to reach out for collaborations or inquiries:  📧 [viverson@uwaterloo.ca](mailto:viverson@uwaterloo.ca)
 
 ---
 
