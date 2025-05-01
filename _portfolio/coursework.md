@@ -11,8 +11,6 @@ permalink: /coursework/
 
 Here's a list of university-level courses I’ve taken at the University of Waterloo, along with some I’ve self-studied or audited. Auditing means I followed along independently—using course materials, attending or watching lectures, and doing assignments—without formal grades. I’m planning to add notes for some courses when I get the chance, so stay tuned!
 
-
-
 ### Education
 - **BMath in Computer Science**, University of Waterloo, expected May 2026
 
@@ -59,7 +57,3 @@ Here are some write-ups and presentations from my coursework projects:
 
 ### Coming Soon
 I’m working on adding notes and insights from reading groups, seminars, and self-study. Right now, I’m in Prof. Jeffrey Negrea’s reading group on online learning and a reading course with Prof. Greg Rice on time series analysis. More to come, so stay tuned!
-
----
-
-<div class="last-updated">Page last updated on {{ site.time | date: '%B %d, %Y' }}</div>

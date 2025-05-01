@@ -1,12 +1,21 @@
 ---
-layout: archive
+title: "Blog Posts"
+excerpt: "My posts about machine learning, math, and related topics"
 permalink: /blog/
-title: "Blog posts"
+layout: archive
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
-<!-- 
+
+## Blog Posts
+
+I plan to post regularly on this blog about topics that catch my interest, likely diving into what I’m currently reading in machine learning and math.
+
+{% if site.posts.size == 0 %}
+  <p>No posts yet, but I'm working on some exciting content. Stay tuned!</p>
+{% endif %}
+
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
@@ -16,4 +25,6 @@ redirect_from:
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
-{% endfor %} -->
+{% endfor %}
+
+<div class="last-updated">Page last updated on {{ site.time | date: '%B, %Y' }}</div>
