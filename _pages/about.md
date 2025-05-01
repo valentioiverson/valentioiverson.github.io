@@ -13,6 +13,8 @@ Hi! I'm **Valentio Iverson**, a fourth-year undergraduate at the University of W
 
 Check out my [Math](/math/) page for cool math content like contest handouts, problem proposals, and university coursework projects or notes.
 
+Check out my [Blog Posts](/blog/) page for cool math blog posts on mathematics (most likely contest math and machine learning).
+
 ## Research Interests
 
 My research lies at the intersection of machine learning and theoretical computer science, with a focus on machine learning theory. More broadly, I am also interested in theoretical computer science and other math topics like number theory, combinatorics and discrete geometry. 
