@@ -1,28 +1,107 @@
 ---
-layout: archive
 title: "Research & Publications"
-permalink: /research/
+excerpt: "My research interests and publications"
+collection: math
+layout: single
 author_profile: true
+permalink: /research/
 ---
 
-<p>My primary research interests focus on mathematical methods in data science and machine learning, bridging classical areas like computational learning theory and modern advancements in deep learning theory. More specifically, my current research interest lies on:</p>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+    li {
+        margin: 5px 0;
+    }
+    .publication {
+        margin: 15px 0;
+    }
+    .publication-title {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .publication-status {
+        font-style: italic;
+        color: #555;
+    }
+    .last-updated {
+        font-size: 0.8em;
+        color: #666;
+        text-align: center;
+        margin-top: 2em;
+        font-style: italic;
+    }
+</style>
+
+<h1>Research & Publications</h1>
+<p>My main research interest lies in mathematics and foundations of data science and machine learning, exploring everything from classical statistics to modern sampling and deep learning theory. More specifically, I am especially interested in: </p>
 
 <ul>
-  <li><strong>Machine Learning Theory</strong>: contrastive learning and domain adaptation</li>
-  <li><strong>Statistics</strong>: differentially private fundamental statistical learning algorithms</li>
-  <li><strong>Deep Learning Theory</strong>: algorithmic guarantees on deep learning models and algorithms.</li>
-  <li><strong>Reinforcement Learning Theory</strong>: online learning, multi-armed bandits, and game theory for agent-based learning.</li>
-  <li><strong>Optimization in Machine Learning</strong>: optimization problems in training or machine learning</li>
-  <li><strong>Algorithms in Data Science</strong>: efficient algorithm for data science problems</li>
+    <li><strong>Machine Learning Theory</strong></li>
+    <li><strong>Optimization in Machine Learning</strong></li>
+    <li><strong>Online Learning & RL Theory</strong></li>
+    <li><strong>Deep Learning Theory</strong></li>
 </ul>
 
-<p>Beyond my primary focus, I have also worked on other fields that pique my interest, including asymptotic density work in number theory, graph theory, theoretical computer science, and deep learning in speech processing.</p>
+<p>I have also previously worked on projects in optimization, differential privacy, number theory, and audio processing. Currently, I am trying to explore more of the topics I mentioned above. Beyond my primary focus, I also enjoy working on interesting problems in classical statistics, number theory, theoretical computer science, combinatorics, and discrete geometry that I find interesting.</p>
 
-<p>Please reach out to me if you would like to collaborate. I am very interested in collaborating on similar research projects.</p>
+<p>If you are interested in collaborating, I’d love to hear from you -- reach out at <a href="mailto:viverson@uwaterloo.ca">viverson@uwaterloo.ca</a>!</p>
 
+<h2>Publications</h2>
+<div class="publication">
+    <div class="publication-title">Optimal Differentially Private Sampling of Unbounded Gaussians</div>
+    <div><em>Valentio Iverson</em>, Gautam Kamath, Argyris Mouzakis</div>
+    <div class="publication-status">Accepted to Theory and Practice of Differential Privacy (TPDP) 2025</div>
+    <div><a href="https://arxiv.org/abs/2503.01766">[arXiv]</a></div>
+</div>
+
+<div class="publication">
+    <div class="publication-title">Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization</div>
+    <div><em>Valentio Iverson</em>, Stephen Vavasis</div>
+    <div class="publication-status">Submitted for review</div>
+    <div><a href="https://arxiv.org/abs/2501.10172">[arXiv]</a></div>
+</div>
+
+<div class="publication">
+    <div class="publication-title">Squarefree Discriminants of Polynomials with Prime Coefficients</div>
+    <div><em>Valentio Iverson</em>, Gian Cordana Sanjaya, Xiaoheng Wang</div>
+    <div class="publication-status">Submitted for review</div>
+    <div><a href="https://arxiv.org/abs/2501.09697">[arXiv]</a></div>
+</div>
+
+<div class="publication">
+  <div class="publication-title">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</div>
+  <div>Kyeongha Rho, Hyeongkeun Lee, <em>Valentio Iverson</em>, Joon Son Chung</div>
+  <div class="publication-status">Accepted to International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
+  <div><a href="https://arxiv.org/abs/2501.09291">[arXiv]</a></div>
+</div> 
+
+
+<h2>Talks</h2>
+<div class="talk">
+    <div class="talk-title">Powerfree Sieves on Prime Input</div>
+    <div><em>Valentio Iverson</em></div>
+    <div class="talk-details">Presented at University of Waterloo's Student Number Theory Seminar, 2023</div>
+    <div><a href="https://drive.google.com/file/d/1kweX50OeI845nNTgqzZPNwd_OYaqmmKR/view?usp=sharing">[Slides]</a></div>
+</div>
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+    <p>You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
 {% endif %}
-
-{% include base_path %}
