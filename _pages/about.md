@@ -19,6 +19,7 @@ Check out my [Blog Posts](/blog/) page for cool math blog posts on mathematics (
 
 My research lies at the intersection of machine learning and theoretical computer science, with a focus on machine learning theory. More broadly, I am also interested in theoretical computer science and other math topics like number theory, combinatorics and discrete geometry. 
 
+You can check out my [Research & Publications](/research/) page to learn more about my research interests and recent publications.
 ## News
 
 - **May 2025**: Paper *"Optimal Differentially Private Sampling of Unbounded Gaussians"* accepted to TPDP 2025.
