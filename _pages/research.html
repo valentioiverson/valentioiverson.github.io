@@ -14,65 +14,79 @@ permalink: /research/
 </script>
 <style>
     body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        line-height: 1.7;
         margin: 20px;
         padding: 0;
-        background-color: #f7f7f7;
+        background-color: #f9f9f9;
+        color: #333;
     }
     h1, h2 {
-        color: #333;
+        color: #222;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+    }
+    p {
+        margin: 10px 0;
     }
     ul {
         list-style-type: disc;
-        margin-left: 20px;
+        margin: 10px 0 10px 20px;
     }
     li {
-        margin: 5px 0;
+        margin: 8px 0;
     }
-    .publication {
-        margin: 15px 0;
+    .publication, .talk {
+        margin: 20px 0;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
-    .publication-title {
-        font-weight: bold;
-        font-size: 1em;
+    .publication-title, .talk-title {
+        font-weight: 600;
+        font-size: 1.1em;
     }
-    .publication-title a {
+    .publication-title a, .talk-title a {
         text-decoration: none;
-        color: #000;
+        color: #1a73e8;
     }
-    .publication-title a:hover {
+    .publication-title a:hover, .talk-title a:hover {
         text-decoration: underline;
     }
-    .publication-status {
+    .publication-authors, .talk-authors {
+        font-size: 0.95em;
+        color: #333;
+    }
+    .publication-status, .talk-details {
         font-style: italic;
         color: #555;
+        font-size: 0.9em;
     }
-    .talk {
-        margin: 15px 0;
+    .gratitude {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #444;
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
     }
-    .talk-title {
-        font-weight: bold;
-        font-size: 1em;
-    }
-    .talk-title a {
+    .gratitude a {
+        color: #1a73e8;
         text-decoration: none;
-        color: #000;
     }
-    .talk-title a:hover {
+    .gratitude a:hover {
         text-decoration: underline;
     }
     .last-updated {
-        font-size: 0.8em;
+        font-size: 0.85em;
         color: #666;
         text-align: center;
-        margin-top: 2em;
+        margin-top: 20px;
         font-style: italic;
     }
 </style>
 
 <p>My main research interest lies in mathematics and foundations of data science and machine learning, exploring everything from classical statistics to modern sampling and deep learning theory. More specifically, I am especially interested in: </p>
-
 <ul>
     <li><strong>Machine Learning Theory</strong></li>
     <li><strong>Optimization in Machine Learning</strong></li>
@@ -87,33 +101,37 @@ permalink: /research/
 <p>If you are interested in collaborating, I’d love to hear from you -- reach out at <a href="mailto:viverson@uwaterloo.ca">viverson@uwaterloo.ca</a>!</p>
 
 <h2>Publications & Manuscripts</h2>
-<div class="publication">
-    <div class="publication-title"><a href="https://arxiv.org/abs/2503.01766">Optimal Differentially Private Sampling of Unbounded Gaussians</a></div>
-    <div><strong>Valentio Iverson</strong>, Gautam Kamath, Argyris Mouzakis</div>
-    <div class="publication-status">Accepted to Conference of Learning Theory (COLT) 2025 and Theory and Practice of Differential Privacy (TPDP) 2025</div>
-</div>
+    <div class="publication">
+        <div class="publication-title"><a href="https://arxiv.org/abs/2503.01766">Optimal Differentially Private Sampling of Unbounded Gaussians</a></div>
+        <div class="publication-authors"><strong>Valentio Iverson</strong>, <a href="http://www.gautamkamath.com/">Gautam Kamath</a>, <a href="https://argymouz.github.io/">Argyris Mouzakis</a></div>
+        <div class="publication-status">Accepted to Conference on Learning Theory (COLT) 2025 and Theory and Practice of Differential Privacy (TPDP) 2025</div>
+    </div>
 
-<div class="publication">
-    <div class="publication-title"><a href="https://arxiv.org/abs/2501.10172">Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization</a></div>
-    <div><strong>Valentio Iverson</strong>, Stephen Vavasis</div>
-    <div class="publication-status">Submitted for review</div>
-</div>
+    <div class="publication">
+        <div class="publication-title"><a href="https://arxiv.org/abs/2501.10172">Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization</a></div>
+        <div class="publication-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a></div>
+        <div class="publication-status">Submitted for review</div>
+    </div>
 
-<div class="publication">
-    <div class="publication-title"><a href="https://arxiv.org/abs/2501.09697">Squarefree Discriminants of Polynomials with Prime Coefficients</a></div>
-    <div><strong>Valentio Iverson</strong>, Gian Cordana Sanjaya, Xiaoheng Wang</div>
-    <div class="publication-status">Submitted for review</div>
-</div>
+    <div class="publication">
+        <div class="publication-title"><a href="https://arxiv.org/abs/2501.09697">Squarefree Discriminants of Polynomials with Prime Coefficients</a></div>
+        <div class="publication-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/pure-mathematics/contacts/gian-cordana-sanjaya">Gian Cordana Sanjaya</a>, <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a></div>
+        <div class="publication-status">Submitted for review</div>
+    </div>
 
-<div class="publication">
-    <div class="publication-title"><a href="https://arxiv.org/abs/2501.09291">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</a></div>
-    <div>Kyeongha Rho, Hyeongkeun Lee, <strong>Valentio Iverson</strong>, Joon Son Chung</div>
-    <div class="publication-status">Accepted to International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
-</div>
+    <div class="publication">
+        <div class="publication-title"><a href="https://arxiv.org/abs/2501.09291">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</a></div>
+        <div class="publication-authors"><a href="https://scholar.google.com/citations?user=_izQenUAAAAJ&hl=ko">Kyeongha Rho</a>, <a href="https://scholar.google.com/citations?user=rFmAVN4AAAAJ&hl=ko">Hyeongkeun Lee</a>, <strong>Valentio Iverson</strong>, <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a></div>
+        <div class="publication-status">Accepted to International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
+    </div>
 
-<h2>Talks</h2>
-<div class="talk">
-    <div class="talk-title"><a href="https://drive.google.com/file/d/1kweX50OeI845nNTgqzZPNwd_OYaqmmKR/view?usp=sharing">Powerfree Sieves on Prime Input</a></div>
-    <div><strong>Valentio Iverson</strong></div>
-    <div class="talk-details">Presented at University of Waterloo's Student Number Theory Seminar, 2023</div>
-</div>
+    <h2>Talks</h2>
+    <div class="talk">
+        <div class="talk-title"><a href="https://drive.google.com/file/d/1kweX50OeI845nNTgqzZPNwd_OYaqmmKR/view?usp=sharing">Powerfree Sieves on Prime Input</a></div>
+        <div class="talk-authors"><strong>Valentio Iverson</strong></div>
+        <div class="talk-details">University of Waterloo Student Number Theory Seminar, 2023</div>
+    </div>
+
+    <div class="gratitude">
+      <p>I am deeply grateful to my mentors, collaborators, and friends who have profoundly shaped my path as a researcher. I extend particular gratitude to <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a> for introducing me to math research, <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a> and <a href="http://www.gautamkamath.com/">Gautam Kamath</a> for mentoring me and involving me in interesting machine learning theory research, and <a href="https://argymouz.github.io/">Argyris Mouzakis</a> for his invaluable mentorship and discussions throughout the year. I am also indebted to <a href="https://cs.uwaterloo.ca/~shai/index.html">Shai Ben-David</a> and <a href="https://aukosh.github.io/">Aukosh Jagannath</a> for my interest in this field.</p>
+    </div>
