@@ -13,7 +13,7 @@ Hi! I'm **Valentio Iverson**, a fourth-year undergraduate at the University of W
 
 Beyond my research, I enjoy engaging with the mathematical community through math contests. I’m particularly proud of proposing Problem 2 for the IMO 2024 (the first IMO problem from Indonesia!) and earning an Honorable Mention in the 2024 William Lowell Putnam Mathematical Competition. 
 
-Explore my [Math](/math/) page for resources like contest handouts, problem proposals, and coursework projects and notes, or visit my [Blog Posts](/blog/) for some cool blog posts on mathematics, most likely contest math and machine learning topics.
+Check out my [Math](/math/) page for resources like contest handouts, problem proposals, and coursework projects and notes, or my [Blog Posts](/blog/) for some cool blog posts on mathematics, most likely contest math and machine learning topics.
 
 
 ## Research Interests
