@@ -22,7 +22,7 @@ My research lies at the intersection of machine learning and theoretical compute
 You can check out my [Research & Publications](/research/) page to learn more about my research interests and recent publications.
 ## News
 
-- **May 2025**: Paper *"Optimal Differentially Private Sampling of Unbounded Gaussians"* accepted to TPDP 2025.
+- **May 2025**: Paper *"Optimal Differentially Private Sampling of Unbounded Gaussians"* accepted to COLT 2025 and TPDP 2025. 
 - **March 2025**: Featured in [Waterloo's news](https://uwaterloo.ca/math/news/waterloo-ranks-sixth-putnam-competition) for the University of Waterloo's 6th-place ranking in the 2024 Putnam Competition as a team member.
 - **February 2025**: Awarded Honorable Mention in the 2024 William Lowell Putnam Mathematical Competition.
 
