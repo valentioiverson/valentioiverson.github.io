@@ -9,11 +9,12 @@ redirect_from:
 
 ## About Me
 
-Hi! I'm **Valentio Iverson**, a fourth-year undergraduate at the University of Waterloo, majoring in Computer Science with minors in Combinatorics & Optimization and Pure Mathematics. Originally from Medan, North Sumatra, Indonesia, I'm passionate about mathematical methods in data science and machine learning. I actively pursue research problems that spark my curiosity and plan to begin graduate studies in machine learning theory in 2026 (expected B.S. May 2026).
+Hi! I'm **Valentio Iverson**, a fourth-year undergraduate at the University of Waterloo, majoring in Computer Science with minors in Combinatorics & Optimization and Pure Mathematics. Originally from Medan, North Sumatra, Indonesia, I am driven by a passion for advancing mathematical foundations in data science and machine learning. I aim to begin a graduate studies in machine learning theory in 2026 (expected B.S. May 2026).
 
-Check out my [Math](/math/) page for cool math content like contest handouts, problem proposals, and university coursework projects or notes.
+Beyond my research, I enjoy engaging with the mathematical community through math contests. I’m particularly proud of proposing Problem 2 for the IMO 2024 (the first IMO problem from Indonesia!) and earning an Honorable Mention in the 2024 William Lowell Putnam Mathematical Competition. 
 
-Check out my [Blog Posts](/blog/) page for cool math blog posts on mathematics (most likely contest math and machine learning).
+Explore my [Math](/math/) page for resources like contest handouts, problem proposals, and coursework projects and notes, or visit my [Blog Posts](/blog/) for some cool blog posts on mathematics, most likely contest math and machine learning topics.
+
 
 ## Research Interests
 
