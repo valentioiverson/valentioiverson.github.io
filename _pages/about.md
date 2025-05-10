@@ -24,15 +24,13 @@ You can check out my [Research & Publications](/research/) page to learn more ab
 
 ## Selected Publications
 
-- **Optimal Differentially Private Sampling of Unbounded Gaussians**  
-  **Valentio Iverson**, Gautam Kamath, Argyris Mouzakis. 
-  *Conference on Learning Theory (COLT) 2025* and *Theory and Practice of Differential Privacy (TPDP) 2025*.  
-  [arXiv](https://arxiv.org/abs/2503.01766)
+- [**Optimal Differentially Private Sampling of Unbounded Gaussians**](https://arxiv.org/abs/2503.01766)  
+  **Valentio Iverson**, Gautam Kamath, Argyris Mouzakis. \\  
+  *Conference on Learning Theory (COLT) 2025* and *Theory and Practice of Differential Privacy (TPDP) 2025*.
 
-- **Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization**  
-  **Valentio Iverson**, Stephen Vavasis. 
-  *Submitted for review*.  
-  [arXiv](https://arxiv.org/abs/2501.10172)
+- [**Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization**](https://arxiv.org/abs/2501.10172)  
+  **Valentio Iverson**, Stephen Vavasis. \\  
+  *Submitted for review*.
 
 ## News
 
