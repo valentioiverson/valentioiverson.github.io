@@ -19,7 +19,6 @@ Here's a list of university-level courses I’ve taken at the University of Wate
 - **CS 480**: Introduction to Machine Learning
 - **CS 485**: Machine Learning Theory
 - **CS 761**: Randomized Algorithms
-- **CS 798**: Advanced Topics in Machine Learning Theory
 - **ECE 457C**: Reinforcement Learning
 
 ### Statistics
