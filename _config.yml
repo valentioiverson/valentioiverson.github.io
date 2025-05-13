@@ -21,7 +21,7 @@ repository               : "valentioiverson/valentioiverson.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "foto.png"
+  avatar           : "photo_05_2025.png"
   name             : "Valentio Iverson"
   pronouns         : # "he/him"
   bio              : "Undergraduate Student at UWaterloo in Machine Learning Theory"
