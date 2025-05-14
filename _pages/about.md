@@ -34,7 +34,7 @@ You can check out my [Research & Publications](/research/) page to learn more ab
 
 ## News
 
-- **May 2025**: Awarded the **2025 Germain-Erdős Undergraduate Award in Mathematics Research** for outstanding mathematics research at the University of Waterloo.
+- **May 2025**: Awarded the [**2025 Germain-Erdős Undergraduate Award in Mathematics Research**](https://uwaterloo.ca/math/news/valentio-iverson-wins-germain-erdos-undergraduate-award) for outstanding mathematics research at the University of Waterloo.
 - **May 2025**: Paper **Optimal Differentially Private Sampling of Unbounded Gaussians** accepted to COLT 2025 and TPDP 2025.
 - **March 2025**: Featured in [Waterloo News](https://uwaterloo.ca/math/news/waterloo-ranks-sixth-putnam-competition) for University of Waterloo’s 6th-place ranking in the 2024 Putnam Competition as a team member.
 - **February 2025**: Earned **Honorable Mention** in the *2024 William Lowell Putnam Mathematical Competition*.
