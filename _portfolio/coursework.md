@@ -6,8 +6,40 @@ layout: single
 author_profile: true
 permalink: /coursework/
 ---
+<style>
+  .notes-disclaimer {
+    background: #fff3cd;
+    color: #664d03;
+    border: 1px solid #ffe69c;
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 10px 0 18px;
+    font-size: .95rem;
+  }
+  .notes-disclaimer ul { margin: .4rem 0 0; padding-left: 1.2rem; }
+  .course-area { margin-top: 1.25rem; }
+  .course-area h3 { border-bottom: 1px solid #e5e5e5; padding-bottom: .25rem; }
+  .course-list { list-style: none; padding-left: 0; margin: .6rem 0; }
+  .course-list li { margin: .35rem 0; }
+  .badge {
+    display: inline-block; font-size: .78rem; padding: .08rem .45rem; border-radius: 6px;
+    border: 1px solid #e5e5e5; background: #fafafa; margin-left: .35rem;
+  }
+  .badge.warn { background: #fdecea; border-color: #facdcd; }
+  .course-meta { color: #666; font-size: .9rem; margin-left: .35rem; }
+  .course-links a { margin-left: .5rem; font-size: .95rem; }
+</style>
 
-Here's a list of university-level courses I’ve taken at the University of Waterloo, along with some I’ve self-studied or audited. Auditing means I followed along independently—using course materials, attending or watching lectures, and doing assignments—without formal grades. I’m planning to add notes for some courses when I get the chance, so stay tuned!
+<p>Here’s a list of university-level courses I’ve taken at the University of Waterloo, plus some I’ve self-studied or audited. “Audited” means I followed along (lectures/materials/assignments) without formal grades.</p>
+
+<div class="notes-disclaimer" role="note" aria-label="Notes disclaimer">
+  <strong>Notes policy:</strong> I’m sharing some of my personal course notes for convenience.
+  <ul>
+    <li>They were written for my own study and may be <em>incomplete</em> or contain <em>errors</em>.</li>
+    <li><strong>Use at your own risk.</strong></li>
+    <li>All mistakes are my responsibility as the notetaker.</li>
+  </ul>
+</div>
 
 ## Education
 - **BMath in Computer Science**, University of Waterloo, expected May 2026
@@ -29,12 +61,16 @@ Here's a list of university-level courses I’ve taken at the University of Wate
 - **STAT 903**: High Dimensional Probability
 - **STAT 929**: Time Series
 - **STAT 946**: Stochastic Differential Equations
-- **STAT 946**: Mathematics of Deep Learning
+- <a href="https://drive.google.com/file/d/1G20jdE5w3cux-DI8wB0lRQIcfboGS_H-/view?usp=sharing" target="_blank" rel="noopener">
+      **STAT 946**: Mathematics of Deep Learning
+    </a>
 
 ### Pure Mathematics
 - **PMATH 450**: Lebesgue Integration and Fourier Analysis
 - **PMATH 451**: Measure Theory
-- **PMATH 453**: Functional Analysis
+- <a href="https://drive.google.com/file/d/1G20jdE5w3cux-DI8wB0lRQIcfboGS_H-/view?usp=sharing" target="_blank" rel="noopener">
+      **PMATH 453**: Functional Analysis
+  </a>
 - **PMATH 833**: Harmonic Analysis
 - **PMATH 950**: Analytic Methods in Convex Geometry
 - **PMATH 990**: Introduction to Random Matrix Theory
