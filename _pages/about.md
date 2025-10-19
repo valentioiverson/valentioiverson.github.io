@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-Hi! I'm **Valentio Iverson**, a fourth-year undergraduate at the University of Waterloo, majoring in Computer Science with minors in Combinatorics & Optimization and Pure Mathematics. Originally from Medan, North Sumatra, Indonesia, I am driven by a passion for advancing mathematical foundations in data science and machine learning. I plan to pursue graduate studies in machine learning theory starting in 2026 (expected B.S. June 2026).
+Hi! I'm **Valentio Iverson**, a final-year undergraduate at the University of Waterloo, majoring in Computer Science with minors in Combinatorics & Optimization and Pure Mathematics. Originally from Indonesia, I am driven by a passion for advancing mathematical foundations in data science and machine learning. I plan to pursue graduate studies in machine learning theory starting in 2026 (expected B.S. June 2026).
 
 Beyond my research, I enjoy engaging with the mathematical community through math contests. I’m particularly proud of proposing **Problem 2 for the IMO 2024** (the first IMO problem from Indonesia) and earning an **Honorable Mention** in the 2024 William Lowell Putnam Mathematical Competition. 
 
@@ -22,7 +22,7 @@ My research lies at the intersection of machine learning and theoretical compute
 
 You can check out my [Research & Publications](/research/) page to learn more about my research interests and recent publications.
 
-## Selected Publications
+## Selected Publications \& Manuscripts
 
 - [**Optimal Differentially Private Sampling of Unbounded Gaussians**](https://arxiv.org/abs/2503.01766)  
   **Valentio Iverson**, Gautam Kamath, Argyris Mouzakis.  <br>
@@ -33,7 +33,7 @@ You can check out my [Research & Publications](/research/) page to learn more ab
   *Submitted for review*.
 
 ## News
-
+- **October 2025**: Paper **A Pathological Property of Nonlocal Discrete Operators** accepted to Proceeding of the AMS.
 - **May 2025**: Awarded the [**2025 Germain-Erdős Undergraduate Award in Mathematics Research**](https://uwaterloo.ca/math/news/valentio-iverson-wins-germain-erdos-undergraduate-award) for outstanding mathematics research at the University of Waterloo.
 - **May 2025**: Paper **Optimal Differentially Private Sampling of Unbounded Gaussians** accepted to COLT 2025 and TPDP 2025.
 - **March 2025**: Featured in [Waterloo News](https://uwaterloo.ca/math/news/waterloo-ranks-sixth-putnam-competition) for University of Waterloo’s 6th-place ranking in the 2024 Putnam Competition as a team member.
