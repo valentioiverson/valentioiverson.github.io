@@ -73,6 +73,7 @@ permalink: /coursework/
 - <a href="https://drive.google.com/file/d/1G20jdE5w3cux-DI8wB0lRQIcfboGS_H-/view?usp=sharing" target="_blank" rel="noopener">
       **PMATH 453**: Functional Analysis
   </a>
+- **PMATH 454**: Fourier Analysis
 - **PMATH 833**: Harmonic Analysis
 - **PMATH 950**: Analytic Methods in Convex Geometry
 - **PMATH 990**: Introduction to Random Matrix Theory
