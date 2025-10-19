@@ -50,18 +50,20 @@ permalink: /coursework/
 - **CS 466**: Algorithm Design and Analysis
 - **CS 480**: Introduction to Machine Learning
 - **CS 485**: Machine Learning Theory
-- **CS 761**: Randomized Algorithms
-- **ECE 457C**: Reinforcement Learning
+- <a href="https://drive.google.com/file/d/1qfiRDIMrt4PmceB0Rn-p3fGIPTVIYiwi/view?usp=sharing" target="_blank" rel="noopener">**CS 761**: Randomized Algorithms</a>
+- <a href="https://drive.google.com/file/d/15lCdpXkI9D_0NTjtzcAKLdZ306P_3NHA/view?usp=sharing" target="_blank" rel="noopener">**ECE 457C**: Reinforcement Learning</a>
 
 ### Statistics
+- <a href="https://drive.google.com/file/d/1ROvlnHtmxpeXTaQ-ePRB8JqkeT_OiOaX/view?usp=sharing" target="_blank" rel="noopener">**STAT 241**: Statistics (Advanced)</a>
 - **STAT 433**: Stochastic Processes II
 - **STAT 450**: Estimation and Hypothesis Testing
 - **STAT 901**: Probability Theory
 - **STAT 902**: Stochastic Calculus
 - **STAT 903**: High Dimensional Probability
 - **STAT 929**: Time Series
-- **STAT 946**: Stochastic Differential Equations
-- <a href="https://drive.google.com/file/d/1G20jdE5w3cux-DI8wB0lRQIcfboGS_H-/view?usp=sharing" target="_blank" rel="noopener">
+- <a href="https://drive.google.com/file/d/1byBMPzK-WPDR5K9_aY34E8quzH_VA8OM/view?usp=sharing" target="_blank" rel="noopener">**STAT 946**: Stochastic Differential Equations
+</a>
+- <a href="https://drive.google.com/file/d/1XQ6p74qSDTzok6KqWSx-Fs4LjwmpIWBo/view?usp=sharing" target="_blank" rel="noopener">
       **STAT 946**: Mathematics of Deep Learning
     </a>
 
@@ -76,7 +78,7 @@ permalink: /coursework/
 - **PMATH 990**: Introduction to Random Matrix Theory
 
 ### Combinatorics and Optimization
-- **CO 430**: Algebraic Combinatorics
+- <a href="https://drive.google.com/file/d/1DRmlWNS4UNm_ZhvI-R_8NiOnrPjGTsvA/view?usp=sharing" target="_blank" rel="noopener">**CO 430**: Algebraic Combinatorics</a>
 - **CO 442**: Graph Theory
 - **CO 466**: Continuous Optimization
 - **CO 739**: Analytic Combinatorics
@@ -88,4 +90,4 @@ Here are some write-ups and presentations from my coursework projects:
 - **PMATH 940**: An Elementary Proof of Hilbert-Waring Theorem (with Gian Sanjaya)  
   [Presentation](https://drive.google.com/file/d/1OxHT3qGNV2r2JPdPgGciPfTj19qyKXAz/view?usp=sharing)  
 - **CO 739**: Positivity Problems for Low-Order Linear Recurrence Sequences  
-  [Presentation](https://drive.google.com/file/d/1wcr_VbX-yTmItB15cGlWZVlE2EI9yngB/view?usp=sharing)
+  [Presentation](https://drive.google.com/file/d/1wcr_VbX-yTmItB15cGlWZVlE2EI9yngB/view?usp=sharing)https://drive.google.com/file/d/1G20jdE5w3cux-DI8wB0lRQIcfboGS_H-/view?usp=sha
