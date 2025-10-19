@@ -78,7 +78,7 @@ permalink: /coursework/
 - **PMATH 990**: Introduction to Random Matrix Theory
 
 ### Combinatorics and Optimization
-- <a href="https://drive.google.com/file/d/1DRmlWNS4UNm_ZhvI-R_8NiOnrPjGTsvA/view?usp=sharing" target="_blank" rel="noopener">**CO 430**: Algebraic Combinatorics</a>
+- <a href="https://drive.google.com/file/d/1DRmlWNS4UNm_ZhvI-R_8NiOnrPjGTsvA/view?usp=sharing" target="_blank" rel="noopener">**CO 430**: Algebraic Enumeration</a>
 - **CO 442**: Graph Theory
 - **CO 466**: Continuous Optimization
 - **CO 739**: Analytic Combinatorics
@@ -90,4 +90,4 @@ Here are some write-ups and presentations from my coursework projects:
 - **PMATH 940**: An Elementary Proof of Hilbert-Waring Theorem (with Gian Sanjaya)  
   [Presentation](https://drive.google.com/file/d/1OxHT3qGNV2r2JPdPgGciPfTj19qyKXAz/view?usp=sharing)  
 - **CO 739**: Positivity Problems for Low-Order Linear Recurrence Sequences  
-  [Presentation](https://drive.google.com/file/d/1wcr_VbX-yTmItB15cGlWZVlE2EI9yngB/view?usp=sharing)https://drive.google.com/file/d/1G20jdE5w3cux-DI8wB0lRQIcfboGS_H-/view?usp=sha
+  [Presentation](https://drive.google.com/file/d/1wcr_VbX-yTmItB15cGlWZVlE2EI9yngB/view?usp=sharing)
