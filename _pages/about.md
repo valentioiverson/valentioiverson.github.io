@@ -22,7 +22,7 @@ My research lies at the intersection of machine learning and theoretical compute
 
 You can check out my [Research & Publications](/research/) page to learn more about my research interests and recent publications.
 
-## Selected Publications \& Manuscripts
+## Selected Publications & Manuscripts
 
 - [**Optimal Differentially Private Sampling of Unbounded Gaussians**](https://arxiv.org/abs/2503.01766)  
   **Valentio Iverson**, Gautam Kamath, Argyris Mouzakis.  <br>
