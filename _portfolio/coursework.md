@@ -51,16 +51,17 @@ permalink: /coursework/
 - **CS 480**: Introduction to Machine Learning
 - **CS 485**: Machine Learning Theory
 - <a href="https://drive.google.com/file/d/1qfiRDIMrt4PmceB0Rn-p3fGIPTVIYiwi/view?usp=sharing" target="_blank" rel="noopener">**CS 761**: Randomized Algorithms</a>
+- **CS 860**: Algorithms for Private Data Analysis*
 - <a href="https://drive.google.com/file/d/15lCdpXkI9D_0NTjtzcAKLdZ306P_3NHA/view?usp=sharing" target="_blank" rel="noopener">**ECE 457C**: Reinforcement Learning</a>
 
 ### Statistics
 - <a href="https://drive.google.com/file/d/1ROvlnHtmxpeXTaQ-ePRB8JqkeT_OiOaX/view?usp=sharing" target="_blank" rel="noopener">**STAT 241**: Statistics (Advanced)</a>
-- **STAT 433**: Stochastic Processes II
+- **STAT 433**: Stochastic Processes II*
 - **STAT 450**: Estimation and Hypothesis Testing
-- **STAT 901**: Probability Theory
-- **STAT 902**: Stochastic Calculus
-- **STAT 903**: High Dimensional Probability
-- **STAT 929**: Time Series
+- **STAT 901**: Probability Theory*
+- **STAT 902**: Stochastic Calculus*
+- **STAT 903**: High Dimensional Probability*
+- **STAT 929**: Time Series*
 - <a href="https://drive.google.com/file/d/1byBMPzK-WPDR5K9_aY34E8quzH_VA8OM/view?usp=sharing" target="_blank" rel="noopener">**STAT 946**: Stochastic Differential Equations
 </a>
 - <a href="https://drive.google.com/file/d/1XQ6p74qSDTzok6KqWSx-Fs4LjwmpIWBo/view?usp=sharing" target="_blank" rel="noopener">
@@ -73,16 +74,19 @@ permalink: /coursework/
 - <a href="https://drive.google.com/file/d/1G20jdE5w3cux-DI8wB0lRQIcfboGS_H-/view?usp=sharing" target="_blank" rel="noopener">
       **PMATH 453**: Functional Analysis
   </a>
-- **PMATH 454**: Fourier Analysis
-- **PMATH 833**: Harmonic Analysis
+- **PMATH 454**: Fourier Analysis*
+- **PMATH 833**: Harmonic Analysis*
 - **PMATH 950**: Analytic Methods in Convex Geometry
-- **PMATH 990**: Introduction to Random Matrix Theory
+- **PMATH 990**: Introduction to Random Matrix Theory*
 
 ### Combinatorics and Optimization
 - <a href="https://drive.google.com/file/d/1DRmlWNS4UNm_ZhvI-R_8NiOnrPjGTsvA/view?usp=sharing" target="_blank" rel="noopener">**CO 430**: Algebraic Enumeration</a>
 - **CO 442**: Graph Theory
 - **CO 466**: Continuous Optimization
 - **CO 739**: Analytic Combinatorics
+- **CO 769**: Computational Optimal Transport
+
+Note: * means I audited (or plan to audit) the course
 
 ## Course Projects
 Here are some write-ups and presentations from my coursework projects:
