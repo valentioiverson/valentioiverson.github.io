@@ -43,6 +43,16 @@ More broadly, I am interested in related problems in statistical estimation, sam
 - **February 2025**: Earned **Honorable Mention** in the *2024 William Lowell Putnam Mathematical Competition*.
 
 
+## Selected Honors & Awards
+- **Alan V. Oppenheim Fellowship**, Massachusetts Institute of Technology, 2026.
+- **CRA Outstanding Undergraduate Researcher Award (Honorable Mention)**, Computing Research Association, 2026.
+- **Germain-Erdős Undergraduate Research Award**, University of Waterloo, 2025.
+- **Nathan Mendelsohn Prize**, University of Manitoba, 2025.
+- **Honorable Mention** and member of the **University of Waterloo Putnam Team**, *William Lowell Putnam Mathematical Competition*, 2024.
+- **Problem Author (Problem 2)**, *International Mathematical Olympiad*, 2024.
+- **Bronze Medal**, *Asia Pacific Mathematics Olympiad*, 2020.
+- **Absolute Winner**, *Indonesia National Mathematical Olympiad*, 2019. 
+
 ## Contact
 
 Feel free to reach out for collaborations or inquiries:  📧 [viverson@uwaterloo.ca](mailto:viverson@uwaterloo.ca)
