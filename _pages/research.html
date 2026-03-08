@@ -1,165 +1,250 @@
 ---
 title: "Research & Publications"
-excerpt: "My research interests and publications"
+excerpt: "My research interests, selected works, and publications"
 collection: math
 layout: single
 author_profile: true
 permalink: /research/
 ---
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
 <style>
-    body {
+    .research-page {
         font-family: 'Helvetica Neue', Arial, sans-serif;
         line-height: 1.7;
-        margin: 20px;
-        padding: 0;
-        background-color: #f9f9f9;
         color: #333;
     }
-    h1, h2 {
+
+    .research-page h2 {
         color: #222;
         border-bottom: 1px solid #ddd;
         padding-bottom: 5px;
+        margin-top: 1.8em;
+        margin-bottom: 0.8em;
     }
-    p {
+
+    .research-page h3 {
+        color: #222;
+        margin-top: 1.4em;
+        margin-bottom: 0.5em;
+    }
+
+    .research-page p {
         margin: 10px 0;
     }
-    ul {
+
+    .research-page ul {
         list-style-type: disc;
         margin: 10px 0 10px 20px;
     }
-    li {
+
+    .research-page li {
         margin: 8px 0;
     }
-    .publication, .talk {
-        margin: 20px 0;
-        padding: 10px;
+
+    .research-page .lede {
+        font-size: 1.02em;
+    }
+
+    .research-page .research-block {
+        margin: 20px 0 26px 0;
+        padding: 14px 16px;
+        background-color: #fcfcfc;
+        border-left: 3px solid #d9d9d9;
+        border-radius: 4px;
+    }
+
+    .research-page .work-item,
+    .research-page .talk {
+        margin: 16px 0;
+        padding: 12px 14px;
         background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     }
-    .publication-title, .talk-title {
+
+    .research-page .work-title,
+    .research-page .talk-title {
         font-weight: 600;
-        font-size: 1.1em;
+        font-size: 1.06em;
     }
-    .publication-title a, .talk-title a {
+
+    .research-page .work-title a,
+    .research-page .talk-title a {
         text-decoration: none;
         color: #1a73e8;
     }
-    .publication-title a:hover, .talk-title a:hover {
+
+    .research-page .work-title a:hover,
+    .research-page .talk-title a:hover {
         text-decoration: underline;
     }
-    .publication-authors, .talk-authors {
+
+    .research-page .work-authors,
+    .research-page .talk-authors {
         font-size: 0.95em;
         color: #333;
+        margin-top: 2px;
     }
-    .publication-status, .talk-details {
+
+    .research-page .work-status,
+    .research-page .talk-details {
         font-style: italic;
         color: #555;
         font-size: 0.9em;
+        margin-top: 2px;
     }
-    .gratitude {
+
+    .research-page .subtle {
+        color: #555;
+    }
+
+    .research-page .gratitude {
         margin-top: 30px;
-        font-size: 0.9em;
+        font-size: 0.92em;
         color: #444;
         border-top: 1px solid #ddd;
         padding-top: 15px;
     }
-    .gratitude a {
+
+    .research-page .gratitude a {
         color: #1a73e8;
         text-decoration: none;
     }
-    .gratitude a:hover {
+
+    .research-page .gratitude a:hover {
         text-decoration: underline;
     }
-    .last-updated {
+
+    .research-page .last-updated {
         font-size: 0.85em;
         color: #666;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 24px;
         font-style: italic;
     }
 </style>
 
-<h2>About My Research</h2>
+<div class="research-page">
+
+<h2>Research Overview</h2>
+
 <p class="lede">
-    I do research in mathematics, in particular foundations of data science and machine learning. 
-    Lately, I am interested in three directions:
-  </p>
-  <ul>
-    <li><strong>Optimization for Machine Learning</strong></li>
-    <li><strong>Online Learning, Learning in Games & Reinforcement Learning Theory</strong></li>
-    <li><strong>Modern Paradigms in Learning & Deep Learning Theory</strong></li><br>
-  </ul>
+    My research is in machine learning theory, with two primary directions. First, I study <strong>learning in adaptive environments</strong>, including online, multi-agent, and other interactive settings. Second, I study the <strong>theoretical foundations of modern machine learning</strong>, especially questions arising from deep learning and generative models.
+</p>
 
-  <p>
-    On the side, I also work on <em>interactive learning</em>, <em>privacy</em> (differential privacy), and <em>robustness</em>. 
-    Beyond these areas, I also enjoy working on problems of independent interest, currently in number theory, combinatorics, and discrete geometry.
-  </p>
-
-
+<p>
+    More broadly, I am also interested in questions on sampling, statistical estimation, and classical learning theory. A recurring theme in my research is to identify fundamental principles and structural phenomena that explain modern learning problems and guide the design of provably effective algorithms.
+</p>
 
 {% if site.author.googlescholar %}
     <p>You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
 {% endif %}
-<p>If you are interested in collaborating, I’d love to hear from you -- reach out at <a href="mailto:viverson@uwaterloo.ca">viverson@uwaterloo.ca</a>!</p>
 
-<h2>Publications & Manuscripts</h2>
-    <div class="publication">
-        <div class="publication-title"><a href="https://arxiv.org/abs/2503.01766">Optimal Differentially Private Sampling of Unbounded Gaussians</a></div>
-        <div class="publication-authors"><strong>Valentio Iverson</strong>, <a href="http://www.gautamkamath.com/">Gautam Kamath</a>, <a href="https://argymouz.github.io/">Argyris Mouzakis</a></div>
-        <div class="publication-status">Accepted to Conference on Learning Theory (COLT) 2025 and Theory and Practice of Differential Privacy (TPDP) 2025</div>
-    </div>
+<p>If you are interested in collaborating, feel free to reach out at <a href="mailto:viverson@uwaterloo.ca">viverson@uwaterloo.ca</a>.</p>
 
-    <div class="publication">
-        <div class="publication-title"><a href="https://arxiv.org/abs/2501.10172">Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization</a></div>
-        <div class="publication-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a></div>
-        <div class="publication-status">Submitted for review</div>
-    </div>
+<h2>Research Directions &amp; Selected Works</h2>
 
-        <div class="publication">
-    <div class="publication-title">
-        <a href="https://arxiv.org/abs/2510.10855">Multiplicatively dependent integer vectors on a hyperplane</a>
-    </div>
-    <div class="publication-authors">
-        <a href="https://afifurra.github.io/">Muhammad Afifurrahman</a>, <strong>Valentio Iverson</strong>, 
-        <a href="https://mortarsanjaya.github.io/">Gian Cordana Sanjaya</a>
-    </div>
-    <div class="publication-status">Submitted for review</div>
-    </div>
+<div class="research-block">
+    <h3>Learning in Adaptive Environments</h3>
+    <p>
+        I work on the theoretical foundations of learning in dynamic and interactive settings, including online learning, reinforcement learning, and learning in games. 
+    </p>
+</div>
 
-    <div class="publication">
-    <div class="publication-title">A Pathological Property of Nonlocal Discrete Operators</div>
-    <div class="publication-authors">
-        William Chang, Christopher Goodrich, <strong>Valentio Iverson</strong>, Khang Nguyen
-    </div>
-    <div class="publication-status">Accepted to Proceedings of the American Mathematical Society (PAMS)</div>
+<div class="research-block">
+    <h3>Theoretical Foundations of Deep Learning &amp; Generative Models</h3>
+    <p>
+        I am interested in developing a deeper mathematical understanding of the empirical success of modern machine learning, with the broader goal of informing the design of better algorithms. My work has included approximation-theoretic aspects of deep learning, such as questions about the expressivity of neural networks and continuous-state sequence models. I have also been interested in other aspects of deep learning theory, including weak-to-strong generalization and theoretical questions surrounding diffusion models.
+    </p>
+</div>
+
+<div class="research-block">
+    <h3>Sampling &amp; Statistical Estimation</h3>
+    <p>
+        I work on the algorithmic and information-theoretic foundations of statistical estimation and sampling, especially in high-dimensional settings. I have also worked on related questions in privacy, robustness, and stability.
+    </p>
+
+    <div class="work-item">
+        <div class="work-title"><a href="https://arxiv.org/abs/2503.01766">Optimal Differentially Private Sampling of Unbounded Gaussians</a></div>
+        <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="http://www.gautamkamath.com/">Gautam Kamath</a>, <a href="https://argymouz.github.io/">Argyris Mouzakis</a></div>
+        <div class="work-status">Accepted to Conference on Learning Theory (COLT) 2025 and Theory and Practice of Differential Privacy (TPDP) 2025</div>
     </div>
 
-    <div class="publication">
-        <div class="publication-title"><a href="https://arxiv.org/abs/2501.09697">Squarefree Discriminants of Polynomials with Prime Coefficients</a></div>
-        <div class="publication-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/pure-mathematics/contacts/gian-cordana-sanjaya">Gian Cordana Sanjaya</a>, <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a></div>
-        <div class="publication-status">Submitted for review</div>
+    <div class="work-item">
+        <div class="work-title"><a href="https://arxiv.org/abs/2501.10172">Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization</a></div>
+        <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a></div>
+        <div class="work-status">Submitted for review</div>
+    </div>
+</div>
+
+<div class="research-block">
+    <h3>Classical Learning Theory</h3>
+    <p>
+        I am also interested in classical learning-theoretic frameworks that help formalize modern learning problems. I have worked on how additional feedback structures, such as discriminative feature feedback or contrastive information, can enrich classical learning setups and improve learnability.
+    </p>
+
+    <div class="work-item">
+        <div class="work-title">On the Importance of Randomization in Discriminative Feature Feedback</div>
+        <div class="work-authors"><strong>Valentio Iverson</strong>, Tosca Lechner, Sivan Sabato</div>
+        <div class="work-status">Submitted for review</div>
     </div>
 
-    <div class="publication">
-        <div class="publication-title"><a href="https://arxiv.org/abs/2501.09291">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</a></div>
-        <div class="publication-authors"><a href="https://scholar.google.com/citations?user=_izQenUAAAAJ&hl=ko">Kyeongha Rho</a>, <a href="https://scholar.google.com/citations?user=rFmAVN4AAAAJ&hl=ko">Hyeongkeun Lee</a>, <strong>Valentio Iverson</strong>, <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a></div>
-        <div class="publication-status">Accepted to International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
+    <div class="work-item">
+        <div class="work-title">Learning Half-Spaces from Perturbed Contrastive Examples</div>
+        <div class="work-authors">Aryan Alavi Razavi Ravari, Farnam Mansouri, Yuxin Chen, <strong>Valentio Iverson</strong>, Adish Singla, Sandra Zilles</div>
+        <div class="work-status">Submitted for review</div>
+    </div>
+</div>
+
+<div class="research-block">
+    <h3>Miscellaneous Projects</h3>
+    <p>
+        Beyond machine learning theory, I also work on mathematical problems of independent interest, especially in number theory, convex and discrete geometry, and combinatorics, including graph theory and extremal or additive combinatorics.
+    </p>
+
+    <div class="work-item">
+        <div class="work-title"><a href="https://arxiv.org/abs/2501.09697">Squarefree Discriminants of Polynomials with Prime Coefficients</a></div>
+        <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/pure-mathematics/contacts/gian-cordana-sanjaya">Gian Cordana Sanjaya</a>, <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a></div>
+        <div class="work-status">Submitted for review</div>
     </div>
 
-    <h2>Talks</h2>
-    <div class="talk">
-        <div class="talk-title"><a href="https://drive.google.com/file/d/1kweX50OeI845nNTgqzZPNwd_OYaqmmKR/view?usp=sharing">Powerfree Sieves on Prime Input</a></div>
-        <div class="talk-authors"><strong>Valentio Iverson</strong></div>
-        <div class="talk-details">University of Waterloo Student Number Theory Seminar, 2023</div>
+    <div class="work-item">
+        <div class="work-title"><a href="https://arxiv.org/abs/2510.10855">Multiplicatively dependent integer vectors on a hyperplane</a></div>
+        <div class="work-authors"><a href="https://afifurra.github.io/">Muhammad Afifurrahman</a>, <strong>Valentio Iverson</strong>, <a href="https://mortarsanjaya.github.io/">Gian Cordana Sanjaya</a></div>
+        <div class="work-status">Submitted for review</div>
     </div>
 
-    <div class="gratitude">
-      <p>I am deeply grateful to my mentors, collaborators, and friends who have profoundly shaped my path as a researcher. I extend particular gratitude to <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a> for introducing me to math research, <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a> and <a href="http://www.gautamkamath.com/">Gautam Kamath</a> for being the first ones to mentor me and involve me in interesting machine learning theory research, and <a href="https://argymouz.github.io/">Argyris Mouzakis</a> for his invaluable mentorship and discussions throughout the year. I am also indebted to <a href="https://cs.uwaterloo.ca/~shai/index.html">Shai Ben-David</a> and <a href="https://aukosh.github.io/">Aukosh Jagannath</a> for my interest in this field.</p>
+    <div class="work-item">
+        <div class="work-title">A Pathological Property of Nonlocal Discrete Operators</div>
+        <div class="work-authors">William Chang, Christopher Goodrich, <strong>Valentio Iverson</strong>, Khang Nguyen</div>
+        <div class="work-status">Accepted to the Proceedings of the American Mathematical Society (PAMS)</div>
     </div>
+
+    <div class="work-item">
+        <div class="work-title"><a href="https://arxiv.org/abs/2501.09291">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</a></div>
+        <div class="work-authors"><a href="https://scholar.google.com/citations?user=_izQenUAAAAJ&hl=ko">Kyeongha Rho</a>, <a href="https://scholar.google.com/citations?user=rFmAVN4AAAAJ&hl=ko">Hyeongkeun Lee</a>, <strong>Valentio Iverson</strong>, <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a></div>
+        <div class="work-status">Accepted to International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
+    </div>
+</div>
+
+<h2>Talks</h2>
+
+<div class="talk">
+    <div class="talk-title"><a href="https://drive.google.com/file/d/1kweX50OeI845nNTgqzZPNwd_OYaqmmKR/view?usp=sharing">Powerfree Sieves on Prime Input</a></div>
+    <div class="talk-authors"><strong>Valentio Iverson</strong></div>
+    <div class="talk-details">University of Waterloo Student Number Theory Seminar, 2023</div>
+</div>
+
+<div class="gratitude">
+  <p>
+    I am deeply grateful to my mentors, collaborators, and friends who have profoundly shaped my path as a researcher. I extend particular gratitude to <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a> for introducing me to mathematical research; to <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a> and <a href="http://www.gautamkamath.com/">Gautam Kamath</a> for being among the first to mentor me and involve me in machine learning theory research; and to <a href="https://argymouz.github.io/">Argyris Mouzakis</a> for his invaluable mentorship and many helpful discussions. I am also indebted to <a href="https://cs.uwaterloo.ca/~shai/index.html">Shai Ben-David</a>, <a href="https://aukosh.github.io/">Aukosh Jagannath</a>, and <a href="https://jnegrea.github.io/">Jeffrey Negrea</a> for inspiring my interest in this field.
+  </p>
+</div>
+
+<div class="last-updated">Last updated: {{ site.time | date: "%B %Y" }}</div>
+
+</div>
