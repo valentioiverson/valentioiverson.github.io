@@ -7,20 +7,21 @@ redirect_from:
   - /about.html
 ---
 
+
 ## About Me
 
-Hi! I'm **Valentio Iverson**, a final-year undergraduate at the University of Waterloo, majoring in Computer Science with minors in Combinatorics & Optimization and Pure Mathematics. Originally from Indonesia, I am driven by a passion for advancing mathematical foundations in data science and machine learning. I plan to pursue graduate studies in machine learning theory starting in 2026 (expected B.S. June 2026).
+I am **Valentio Iverson**, an incoming graduate student in EECS at the Massachusetts Institute of Technology (MIT). I am currently completing my undergraduate studies at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
 
-Beyond my research, I enjoy engaging with the mathematical community through math contests. I’m particularly proud of proposing **Problem 2 for the IMO 2024** (the first IMO problem from Indonesia) and earning an **Honorable Mention** in the 2024 William Lowell Putnam Mathematical Competition. 
+I am interested in machine learning theory and theoretical computer science, especially learning in adaptive environments and the theoretical foundations of modern machine learning. I am also active in the mathematical problem-solving community. I proposed **Problem 2 for IMO 2024**, the first IMO problem from Indonesia, and received an **Honorable Mention** in the 2024 William Lowell Putnam Mathematical Competition.
 
-Check out my [Math](/math/) page for resources like contest handouts, problem proposals, and coursework projects and notes, or my [Blog Posts](/blog/) for some cool blog posts on mathematics, most likely contest math and machine learning topics.
-
+For contest handouts, problem proposals, coursework notes, and related materials, see my [Math](/math/) page. For expository writing on mathematics and machine learning, visit my [Blog Posts](/blog/) page.
 
 ## Research Interests
 
-My research lies at the intersection of machine learning and theoretical computer science, with a focus on theoretical foundations of machine learning. More broadly, I am also interested in theoretical computer science and other math topics like number theory, combinatorics and discrete geometry. My ambitious research goal is to develop provable explanation and guarantees to various machine learning phenomenon.
+My research is in machine learning theory, with two primary directions. First, I study **learning in adaptive environments**, including multi-agent and other interactive settings. Second, I study the **theoretical foundations of modern machine learning**, especially questions arising from deep learning and generative models.
 
-You can check out my [Research & Publications](/research/) page to learn more about my research interests and recent publications.
+More broadly, I am interested in related problems in statistical estimation, sampling, and classical learning theory. A recurring theme in my research is to study fundamental notions and principles that explain modern learning behavior and guide the design of provably effective algorithms. You can learn more on my [Research & Publications](/research/) page.
+
 
 ## Selected Publications & Manuscripts
 
@@ -33,7 +34,9 @@ You can check out my [Research & Publications](/research/) page to learn more ab
   *Submitted for review*.
 
 ## News
-- **October 2025**: Paper **A Pathological Property of Nonlocal Discrete Operators** accepted to Proceeding of the AMS.
+- **February 2026**: Ranked among the **Top 200** scorers in the *2025 William Lowell Putnam Mathematical Competition* and was a member of the University of Waterloo’s official Putnam team (top three Putnam scorers).
+- **January 2026**: Received an **Honorable Mention** in the [**2026 CRA Outstanding Undergraduate Researcher Awards**](https://cs.uwaterloo.ca/news/cheriton-cs-students-receive-2026-cra-outstanding-undergraduate-researcher-awards).
+- **October 2025**: Paper **A Pathological Property of Nonlocal Discrete Operators** accepted to Proceedings of the AMS.
 - **May 2025**: Awarded the [**2025 Germain-Erdős Undergraduate Award in Mathematics Research**](https://uwaterloo.ca/math/news/valentio-iverson-wins-germain-erdos-undergraduate-award) for outstanding mathematics research at the University of Waterloo.
 - **May 2025**: Paper **Optimal Differentially Private Sampling of Unbounded Gaussians** accepted to COLT 2025 and TPDP 2025.
 - **March 2025**: Featured in [Waterloo News](https://uwaterloo.ca/math/news/waterloo-ranks-sixth-putnam-competition) for University of Waterloo’s 6th-place ranking in the 2024 Putnam Competition as a team member.

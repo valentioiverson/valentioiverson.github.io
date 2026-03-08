@@ -1,6 +1,6 @@
 ---
 title: "Math Contests"
-excerpt: "My involvement in math contests, including problem proposals, handouts, and past achievements"
+excerpt: "My involvement in mathematical contests, including problem proposals, handouts, teaching, and selected achievements"
 collection: math
 layout: single
 author_profile: true
@@ -12,186 +12,309 @@ permalink: /math-contests/
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
 <style>
-    body {
+    .math-contests-page {
         font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
+        line-height: 1.7;
+        color: #333;
+    }
+
+    .math-contests-page h1,
+    .math-contests-page h2 {
+        color: #2f2f2f;
+        margin-top: 1.8em;
+        margin-bottom: 0.6em;
+    }
+
+    .math-contests-page p {
+        margin-bottom: 1em;
+    }
+
+    .math-contests-page a {
+        text-decoration: none;
+    }
+
+    .math-contests-page a:hover {
+        text-decoration: underline;
+    }
+
+    .math-contests-page .section-box {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 18px 20px;
+        background-color: #fafafa;
+        margin: 18px 0 24px 0;
+    }
+
+    .math-contests-page ul,
+    .math-contests-page ol {
+        margin-left: 22px;
+    }
+
+    .math-contests-page li {
+        margin: 6px 0;
+    }
+
+    .math-contests-page details.problem-dropdown {
+        border: 1px solid #d8d8d8;
+        border-radius: 10px;
+        background-color: #fafafa;
+        margin: 14px 0;
         padding: 0;
-        background-color: #f7f7f7;
+        overflow: hidden;
     }
-    h1, h2 {
-        color: #333;
+
+    .math-contests-page details.problem-dropdown summary {
+        cursor: pointer;
+        padding: 14px 16px;
+        font-weight: 700;
+        font-size: 17px;
+        color: #2f2f2f;
+        background-color: #f4f4f4;
+        list-style: none;
     }
-    .problem-box {
-        border: 2px solid #ccc;
-        border-radius: 8px;
-        padding: 15px;
-        background-color: #f9f9f9;
-        margin: 20px 0;
+
+    .math-contests-page details.problem-dropdown summary::-webkit-details-marker {
+        display: none;
     }
-    .problem-title {
-        font-size: 18px;
-        font-weight: bold;
-        color: #333;
-    }
-    .problem-body {
-        margin-top: 10px;
-    }
-    ul {
-        list-style-type: disc;
-        margin-left: 20px;
-    }
-    li {
-        margin: 5px 0;
-    }
-    .last-updated {
-        font-size: 0.8em;
+
+    .math-contests-page details.problem-dropdown summary::before {
+        content: "▸ ";
         color: #666;
+        font-weight: normal;
+    }
+
+    .math-contests-page details.problem-dropdown[open] summary::before {
+        content: "▾ ";
+    }
+
+    .math-contests-page details.problem-dropdown .problem-body {
+        padding: 14px 16px 16px 16px;
+        background-color: #fcfcfc;
+    }
+
+    .math-contests-page details.problem-dropdown .problem-body p:last-child {
+        margin-bottom: 0;
+    }
+
+    .math-contests-page details {
+        margin-top: 12px;
+    }
+
+    .math-contests-page summary {
+        cursor: pointer;
+    }
+
+    .math-contests-page .last-updated {
+        font-size: 0.85em;
+        color: #777;
         text-align: center;
-        margin-top: 2em;
+        margin-top: 2.5em;
         font-style: italic;
     }
 </style>
 
-<h1>Math Contests</h1>
-<p>I’m a big fan of math and problem-solving, and math contests have been a huge part of that passion, from competing as a student to now helping out with Indonesia’s IMO team.</p>
+<div class="math-contests-page">
 
-<h2>Teaching & Achievements</h2>
-<p>I’ve been involved in math contests for years, first as a competitor and now as a mentor. Here are some of my achievements, listed from most recent:</p>
-<ul>
-    <li><strong>Honorable Mention (Top 100)</strong>, William Lowell Putnam Mathematical Competition 2024</li>
-    <li><strong>Top 235 and 312 (7% and 8%)</strong>, William Lowell Putnam Mathematical Competition 2022 and 2023</li>
-    <li><strong>Second Prize</strong>, European Mathematical Cup 2020</li>
-    <li><strong>Bronze Medal</strong>, Tuymaada International Olympiad 2020</li>
-    <li><strong>Bronze Medal</strong>, Asia Pacific Mathematics Olympiad 2020</li>
-    <li><strong>Honorable Mention (IDN 4)</strong>, Romanian Master of Mathematics 2020</li>
-    <li><strong>Absolute Winner</strong>, Indonesia National Math Olympiad 2019</li>
-    <li><strong>Bronze Medal</strong>, Iranian Geometry Olympiad 2018 and 2019</li>
-    <li><strong>Bronze Medal</strong>, China Southeastern Mathematical Olympiad 2018</li>
-</ul>
-<p>I’m part of <strong><a href="https://ktom-tomi.or.id/home">KTO Matematika</a></strong>, an Indonesian nonprofit math olympiad community run by alumni. I led the group in 2020 and now occasionally propose problems or help with quality checks.</p>
-<p>These days, I assist the Indonesian IMO team by teaching, grading, and reviewing problem shortlists. I am also open to teaching, feel free to contact me at <a href="mailto:viverson@uwaterloo.ca">viverson@uwaterloo.ca</a> for these type of inquiries.</p>
+<h1>Mathematical Contests</h1>
+<p>
+    Math contests have played an important role in my mathematical development, first as a competitor and later as a mentor, instructor, and problem proposer. I remain actively involved in olympiad mathematics through teaching, reviewing, and proposing problems for national and international competitions.
+</p>
+
+<h2>Teaching &amp; Community</h2>
+<div class="section-box">
+    <p>
+        I am part of <strong><a href="https://ktom-tomi.or.id/home">KTO Matematika</a></strong>, an Indonesian nonprofit olympiad mathematics community run by alumni. I led the organization in 2020 and continue to contribute through problem proposals, reviews, and quality checks.
+    </p>
+    <p>
+        More recently, I have been involved with the Indonesian IMO program through teaching, grading, and reviewing shortlist materials. I am also open to teaching and mentoring; feel free to contact me at <a href="mailto:viverson@uwaterloo.ca">viverson@uwaterloo.ca</a> for related inquiries.
+    </p>
+</div>
+
+<h2>Selected Achievements</h2>
+<div class="section-box">
+    <ul>
+        <li><strong>Honorable Mention</strong> (<strong>Top 100, 2%</strong>) and member of the <strong>University of Waterloo Putnam Team</strong>, <em>William Lowell Putnam Mathematical Competition</em></li>
+        <li><strong>Bronze Medal</strong>, <em>Asia Pacific Mathematics Olympiad</em></li>
+        <li><strong>Honorable Mention</strong> (<strong>IDN 4</strong>), <em>Romanian Master of Mathematics</em></li>
+        <li><strong>Absolute Winner</strong>, <em>Indonesia National Mathematical Olympiad</em></li>
+    </ul>
+
+    <details>
+        <summary><strong>More achievements</strong></summary>
+        <ul style="margin-top: 12px;">
+            <li><strong>Top 235</strong> (<strong>7%</strong>) and <strong>Top 312</strong> (<strong>8%</strong>), <em>William Lowell Putnam Mathematical Competition</em> (2022, 2023)</li>
+            <li><strong>Second Prize</strong>, <em>European Mathematical Cup</em> (2020)</li>
+            <li><strong>Bronze Medal</strong>, <em>Tuymaada International Olympiad</em> (2020)</li>
+            <li><strong>Bronze Medal</strong>, <em>Iranian Geometry Olympiad</em> (2018, 2019)</li>
+            <li><strong>Bronze Medal</strong>, <em>China Southeastern Mathematical Olympiad</em> (2018)</li>
+        </ul>
+    </details>
+</div>
 
 <h2>Handouts</h2>
-<p>Here are the handouts I used for my sessions in Indonesia IMO 2025 Training Camp:</p>
-<ul>
-    <li><strong>(A) Non-Standard Inequalities</strong>: <a href="https://drive.google.com/file/d/1wOzHMUS_jXedeV8L8Bdq6JGtqVHtCmcK/view?usp=sharing">View Handout</a></li>
-    <li><strong>(N) Integer Polynomials (Basic)</strong>: <a href="https://drive.google.com/file/d/1AnIh_T3L9jXKs6Cy3fUU6L4UX6YtjnZe/view?usp=sharing">View Handout</a></li>
-    <li><strong>(C) Algorithms</strong>: <a href="https://drive.google.com/file/d/1RvuIj0q6Cuqs4sVfo8p8m3BG2RTp5pcA/view?usp=sharing">View Handout</a></li>
-    <li><strong>(C) Paths & Cycles</strong>: <a href="https://drive.google.com/file/d/1uVombucdc0Cns_dCOL6i_yQsynrfD_i7/view?usp=sharing">View Handout</a></li>
-</ul>
+<div class="section-box">
+    <p>Here are the handouts I used for my sessions in the Indonesia IMO 2025 Training Camp:</p>
+    <ul>
+        <li><strong>(A) Non-Standard Inequalities</strong>: <a href="https://drive.google.com/file/d/1wOzHMUS_jXedeV8L8Bdq6JGtqVHtCmcK/view?usp=sharing">View Handout</a></li>
+        <li><strong>(N) Integer Polynomials (Basic)</strong>: <a href="https://drive.google.com/file/d/1AnIh_T3L9jXKs6Cy3fUU6L4UX6YtjnZe/view?usp=sharing">View Handout</a></li>
+        <li><strong>(C) Algorithms</strong>: <a href="https://drive.google.com/file/d/1RvuIj0q6Cuqs4sVfo8p8m3BG2RTp5pcA/view?usp=sharing">View Handout</a></li>
+        <li><strong>(C) Paths &amp; Cycles</strong>: <a href="https://drive.google.com/file/d/1uVombucdc0Cns_dCOL6i_yQsynrfD_i7/view?usp=sharing">View Handout</a></li>
+    </ul>
+</div>
 
 <h2>Problem Proposals</h2>
-<p>After retiring from contest math, I have always enjoyed making contest problems alongside my research. Nowadays, I actively propose problems to various national and international math contests. Here are some of my past proposals:</p>
-
-
-<div class="problem-box">
-    <div class="problem-title">IMO 2024/2 (N4)</div>
-    <div class="problem-body">
-        <p>Determine all pairs \((a, b)\) of positive integers for which there exist positive integers \(g\) and \(N\) such that:</p>
-        <p>\[\gcd(a^n + b, b^n + a) = g\]</p>
-        <p>holds for all integers \(n \geq N\).</p>
-    </div>
+<div class="section-box">
+    <p>
+        After retiring from contest participation, I became increasingly interested in problem creation alongside my research. I now actively propose problems to various national and international mathematical contests. A selection of past proposals is listed below.
+    </p>
 </div>
 
-<div class="problem-box">
-    <div class="problem-title">IMO Shortlist 2024 C5</div>
+<details class="problem-dropdown">
+    <summary>IMO 2024/2 (N4)</summary>
     <div class="problem-body">
-        <p>Let \( N \) be a positive integer. Geoff and Ceri play a game in which they start by writing the numbers \( 1, 2, \dots, N \) on a board. They then take turns to make a move, starting with Geoff. 
-            Each move consists of choosing a pair of integers \( (k,n) \), where \( k \ge 0 \) and \( n \) is one of the integers on the board, and then erasing every integer \( s \) on the board such that \( 2^k \mid n - s \).
+        <p>Determine all pairs \((a,b)\) of positive integers for which there exist positive integers \(g\) and \(N\) such that</p>
+        <p>\[
+        \gcd(a^n + b, b^n + a) = g
+        \]</p>
+        <p>holds for all integers \(n \ge N\).</p>
+    </div>
+</details>
+
+<details class="problem-dropdown">
+    <summary>IMO Shortlist 2024 C5</summary>
+    <div class="problem-body">
+        <p>
+            Let \(N\) be a positive integer. Geoff and Ceri play a game in which they start by writing the numbers \(1,2,\dots,N\) on a board. They then take turns to make a move, starting with Geoff.
+        </p>
+        <p>
+            Each move consists of choosing a pair of integers \((k,n)\), where \(k \ge 0\) and \(n\) is one of the integers on the board, and then erasing every integer \(s\) on the board such that \(2^k \mid n-s\).
+        </p>
+        <p>
             The game continues until the board is empty. The player who erases the last integer on the board loses.
         </p>
-        <p>Determine all values of \( N \) for which Geoff can ensure that he wins, no matter how Ceri plays.</p>
+        <p>Determine all values of \(N\) for which Geoff can ensure that he wins, no matter how Ceri plays.</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">IMO Shortlist 2022 A6</div>
+<details class="problem-dropdown">
+    <summary>IMO Shortlist 2022 A6</summary>
     <div class="problem-body">
-        <p>Let \(\mathcal{F}\) be the set of all functions \(f: \mathbb{R} \to \mathbb{R}\) such that:</p>
-        <p>\[f(x + f(y)) = f(x) + f(y)\]</p>
+        <p>Let \(\mathcal{F}\) be the set of all functions \(f: \mathbb{R} \to \mathbb{R}\) such that</p>
+        <p>\[
+        f(x + f(y)) = f(x) + f(y)
+        \]</p>
         <p>for every \(x, y \in \mathbb{R}\). Find all rational numbers \(q\) such that for every \(f \in \mathcal{F}\), there exists some \(z \in \mathbb{R}\) satisfying \(f(z) = qz\).</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">APMO 2022/5</div>
+<details class="problem-dropdown">
+    <summary>APMO 2022/5</summary>
     <div class="problem-body">
         <p>Let \(a, b, c, d\) be real numbers such that \(a^2 + b^2 + c^2 + d^2 = 1\). Determine the minimum value of \((a - b)(b - c)(c - d)(d - a)\) and find all values of \(a, b, c, d\) where this minimum is achieved.</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia MO 2025/4</div>
+<details class="problem-dropdown">
+    <summary>Indonesia MO 2025/4</summary>
     <div class="problem-body">
-        <p>Let \( (a_n)_{n \ge 1} \) and \( (b_n)_{n \ge 1} \) be sequences of positive real numbers such that \( a_1, b_1 < 5 \) and for any positive integer \( n \), </p>
-        <p>\[ a_{n + 1} = \frac{b_n + \sqrt{a_n b_n}}{2} \ \text{and } b_{n + 1} = \sqrt{\frac{a_n(a_n + b_n)}{2}}. \] </p>
+        <p>Let \((a_n)_{n \ge 1}\) and \((b_n)_{n \ge 1}\) be sequences of positive real numbers such that \(a_1, b_1 &lt; 5\) and for any positive integer \(n\),</p>
+        <p>\[
+        a_{n + 1} = \frac{b_n + \sqrt{a_n b_n}}{2}
+        \qquad \text{and} \qquad
+        b_{n + 1} = \sqrt{\frac{a_n(a_n + b_n)}{2}}.
+        \]</p>
         <p>Prove that</p>
-        <p>\[ |a_{20} - b_{20}| < \frac{1}{2025}. \]</p>
+        <p>\[
+        |a_{20} - b_{20}| < \frac{1}{2025}.
+        \]</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia MO Semifinal Round 2025/5</div>
+<details class="problem-dropdown">
+    <summary>Indonesia MO Semifinal Round 2025/5</summary>
     <div class="problem-body">
         <p>Let \( f : \mathbb{R} \to \mathbb{R} \) be a function that satisfies</p>
         <ul>
-            <li> \( f(x+f(y)) = f(x) + f(y) \) for all \( x,y \in \mathbb{R} \). </li>
-            <li> There exist a real number \( x \) such that \( f(x) = \frac{1}{2025}\). </li>
-            <li> There does not exist a real number \( x \) such that \( 0 < f(x) < \frac{1}{2025} \). </li>
+            <li>\( f(x+f(y)) = f(x) + f(y) \) for all \( x,y \in \mathbb{R} \).</li>
+            <li>There exists a real number \( x \) such that \( f(x) = \frac{1}{2025}\).</li>
+            <li>There does not exist a real number \( x \) such that \( 0 < f(x) < \frac{1}{2025} \).</li>
         </ul>
-    <p> Determine all possible images of \( f \). </p>
+        <p>Determine all possible images of \( f \).</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia RMO 2025/2</div>
+<details class="problem-dropdown">
+    <summary>Indonesia RMO 2025/2</summary>
     <div class="problem-body">
-        <p>Let \( S \) be the set of all triples of positive real numbers \( (a,b,c) \) such that \( a + b + c = ab + bc + ca \). 
-            <ol>
-                <li>Prove that the inequality \[ \min \{ a + b, b + c + c + a \} > 1 \] holds for every triple \( (a,b,c) \in S \). </li>
-                <li> Does there exist a triple \( (a,b,c) \in S \) such that \[ \min \{ a + b, b + c, c + a \} < 1 + \frac{1}{20^{25}} ? \] </li>
-            </ol>
+        <p>Let \( S \) be the set of all triples of positive real numbers \( (a,b,c) \) such that \( a + b + c = ab + bc + ca \).</p>
+        <ol>
+            <li>Prove that
+                \[
+                \min \{ a+b,\; b+c,\; c+a \} > 1.
+                \]
+            </li>
+            <li>Does there exist a triple \( (a,b,c) \in S \) such that
+                \[
+                \min \{ a+b,\; b+c,\; c+a \} < 1 + \frac{1}{20^{25}} ?
+                \]
+            </li>
+        </ol>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia RMO 2025/8 (Short Answer)</div>
+<details class="problem-dropdown">
+    <summary>Indonesia RMO 2025/8 (Short Answer)</summary>
     <div class="problem-body">
-        <p>Find the number of positive integers \( (a,b) \) where \( 1 \le a,b \le 19^2 \) such that \( a^4 + b^3 \) is divisible by \( 19^2 \). </p>
+        <p>Find the number of positive integers \( (a,b) \) where \( 1 \le a,b \le 19^2 \) such that \( a^4 + b^3 \) is divisible by \( 19^2 \).</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia RMO 2024/4</div>
+<details class="problem-dropdown">
+    <summary>Indonesia RMO 2024/4</summary>
     <div class="problem-body">
-        <p>Find the number of positive integer pairs \(1 \leq a, b \leq 2027\) that satisfy:</p>
-        <p>\[2027 \mid a^6 + b^5 + b^2.\]</p>
+        <p>Find the number of positive integer pairs \(1 \le a, b \le 2027\) that satisfy</p>
+        <p>\[
+        2027 \mid a^6 + b^5 + b^2.
+        \]</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia First Stage TST 2024</div>
+<details class="problem-dropdown">
+    <summary>Indonesia First Stage TST 2024</summary>
     <div class="problem-body">
-        <p>Find all functions \(f: \mathbb{N} \to \mathbb{N}\) such that for every prime number \(p\) and natural number \(x\):</p>
-        <p>\[\{x, f(x), \dots, f^{p-1}(x)\}\]</p>
+        <p>Find all functions \(f: \mathbb{N} \to \mathbb{N}\) such that for every prime number \(p\) and natural number \(x\),</p>
+        <p>\[
+        \{x, f(x), \dots, f^{p-1}(x)\}
+        \]</p>
         <p>is a complete residue system modulo \(p\).</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia MO 2023/2</div>
+<details class="problem-dropdown">
+    <summary>Indonesia MO 2023/2</summary>
     <div class="problem-body">
-        <p>Determine all functions \(f: \mathbb{R} \to \mathbb{R}\) such that for every real \(x, y\):</p>
-        <p>\[f(f(x) + y) = \lfloor x + f(f(y)) \rfloor.\]</p>
+        <p>Determine all functions \(f: \mathbb{R} \to \mathbb{R}\) such that for every real \(x, y\),</p>
+        <p>\[
+        f(f(x) + y) = \lfloor x + f(f(y)) \rfloor.
+        \]</p>
     </div>
-</div>
+</details>
 
-<div class="problem-box">
-    <div class="problem-title">Indonesia MO 2023/8</div>
+<details class="problem-dropdown">
+    <summary>Indonesia MO 2023/8</summary>
     <div class="problem-body">
-        <p>Let \(a, b, c\) be three distinct positive integers. Define \(S(a, b, c)\) as the set of all rational roots of \(px^2 + qx + r = 0\) for every permutation \((p, q, r)\) of \((a, b, c)\). For example, \(S(1, 2, 3) = \{-1, -2, -1/2\}\) because the equation \(x^2 + 3x + 2 = 0\) has roots \(-1\) and \(-2\), the equation \(2x^2 + 3x + 1 = 0\) has roots \(-1\) and \(-1/2\), and other permutations yield no rational roots.</p>
+        <p>
+            Let \(a, b, c\) be three distinct positive integers. Define \(S(a, b, c)\) as the set of all rational roots of \(px^2 + qx + r = 0\) for every permutation \((p, q, r)\) of \((a, b, c)\).
+        </p>
+        <p>
+            For example, \(S(1, 2, 3) = \{-1, -2, -1/2\}\) because the equation \(x^2 + 3x + 2 = 0\) has roots \(-1\) and \(-2\), the equation \(2x^2 + 3x + 1 = 0\) has roots \(-1\) and \(-1/2\), and other permutations yield no rational roots.
+        </p>
         <p>Determine the maximum number of elements in \(S(a, b, c)\).</p>
     </div>
+</details>
+
+<div class="last-updated">Last updated: {{ site.time | date: "%B %Y" }}</div>
+
 </div>
