@@ -10,17 +10,21 @@ redirect_from:
 
 ## About Me
 
-I am **Valentio Iverson**, an incoming graduate student in EECS at the Massachusetts Institute of Technology (MIT). I am currently completing my undergraduate studies at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
+I am **Valentio Iverson**, an incoming graduate student in Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology (MIT), where I plan to work on theoretical foundations of machine learning. I am currently completing my undergraduate studies at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
 
-I am interested in machine learning theory and theoretical computer science, especially learning in adaptive environments and the theoretical foundations of modern machine learning. I am also active in the mathematical problem-solving community. I proposed **Problem 2 for IMO 2024**, the first IMO problem from Indonesia, and received an **Honorable Mention** in the 2024 William Lowell Putnam Mathematical Competition.
+My main research interests are in machine learning theory, especially learning dynamics in games and deep learning theory. 
+
+I am also active in the mathematical problem-solving community. I wrote **Problem 2 at IMO 2024**, the first IMO problem from Indonesia, and received an **Honorable Mention** in the 2024 William Lowell Putnam Mathematical Competition.
 
 For contest handouts, problem proposals, coursework notes, and related materials, see my [Math](/math/) page. For expository writing on mathematics and machine learning, visit my [Blog Posts](/blog/) page.
 
 ## Research Interests
 
-My research is in machine learning theory, with two primary directions. First, I study **learning in adaptive environments**, including multi-agent and other interactive settings. Second, I study the **theoretical foundations of modern machine learning**, especially questions arising from deep learning and generative models.
+My research is in machine learning theory. I am currently most interested in learning in adaptive environments and deep learning theory. Within these areas, I am drawn to questions with an extremal or optimization flavor, especially those involving learning dynamics, model expressivity, optimality guarantees, and the capabilities or limitations of modern machine learning systems.
 
-More broadly, I am interested in related problems in statistical estimation, sampling, and classical learning theory. A recurring theme in my research is to study fundamental notions and principles that explain modern learning behavior and guide the design of provably effective algorithms. You can learn more on my [Research & Publications](/research/) page.
+I am also interested in sampling, statistical estimation, and classical learning theory, areas in which I have worked on previously.
+
+You can learn more on my [Research & Publications](/research/) page.
 
 
 ## Selected Publications & Manuscripts
