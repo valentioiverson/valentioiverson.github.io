@@ -81,6 +81,9 @@ This page provides an overview of my coursework, selected course projects, and p
 
 Below are a few write-ups and presentations from coursework projects.
 
+- **PMATH 833**: *On Another Blaschke Characterization of Ellipsoid*
+  [Report](https://drive.google.com/file/d/1XUwuxXGFGXre_ccY78fcCYjqpkYcL21l/view?usp=sharing)
+
 - **PMATH 950**: *Blaschke’s Characterization of Ellipsoids*  
   [Report](https://drive.google.com/file/d/1lT7Sn_ajpEU0s6u0DcaZcBV-U3punam7/view?usp=sharing)
 
