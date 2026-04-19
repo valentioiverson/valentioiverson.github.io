@@ -28,38 +28,26 @@ permalink: /research/
 
     .research-page h3 {
         color: #222;
-        margin-top: 1.4em;
-        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+        margin-bottom: 0.45em;
+        font-size: 1.15em;
     }
 
     .research-page p {
         margin: 10px 0;
     }
 
-    .research-page ul {
-        list-style-type: disc;
-        margin: 10px 0 10px 20px;
-    }
-
-    .research-page li {
-        margin: 8px 0;
-    }
-
     .research-page .lede {
         font-size: 1.02em;
     }
 
-    .research-page .research-block {
-        margin: 20px 0 26px 0;
-        padding: 14px 16px;
-        background-color: #fcfcfc;
-        border-left: 3px solid #d9d9d9;
-        border-radius: 4px;
+    .research-page .research-section {
+        margin: 20px 0 28px 0;
     }
 
     .research-page .work-item,
     .research-page .talk {
-        margin: 16px 0;
+        margin: 14px 0;
         padding: 12px 14px;
         background-color: #fff;
         border-radius: 6px;
@@ -90,16 +78,23 @@ permalink: /research/
         margin-top: 2px;
     }
 
+    .research-page .work-authors a,
+    .research-page .talk-authors a {
+        color: #1a73e8;
+        text-decoration: none;
+    }
+
+    .research-page .work-authors a:hover,
+    .research-page .talk-authors a:hover {
+        text-decoration: underline;
+    }
+
     .research-page .work-status,
     .research-page .talk-details {
         font-style: italic;
         color: #555;
         font-size: 0.9em;
         margin-top: 2px;
-    }
-
-    .research-page .subtle {
-        color: #555;
     }
 
     .research-page .gratitude {
@@ -133,11 +128,23 @@ permalink: /research/
 <h2>Research Overview</h2>
 
 <p class="lede">
-    My research is in machine learning theory, with two primary directions. First, I study <strong>learning in adaptive environments</strong>, including online, multi-agent, and other interactive settings. Second, I study the <strong>theoretical foundations of modern machine learning</strong>, especially questions arising from deep learning and generative models.
+    My research is in machine learning theory. I am currently most interested in two broad directions: learning in adaptive environments and theoretical questions arising from deep learning.
 </p>
 
 <p>
-    More broadly, I am also interested in questions on sampling, statistical estimation, and classical learning theory. A recurring theme in my research is to identify fundamental principles and structural phenomena that explain modern learning problems and guide the design of provably effective algorithms.
+    In learning in adaptive environments, I am especially interested in learning dynamics in games and other interactive settings. I have also worked on online learning and equilibrium-related questions in this area.
+</p>
+
+<p>
+    In deep learning theory, I am interested in understanding the capabilities and limitations of modern machine learning systems. This has led me to study model expressivity, as well as questions motivated by neural networks, diffusion models, and other modern learning architectures. I am particularly interested in theoretical insights that can guide better algorithm design or clarify the limitations of existing methods.
+</p>
+
+<p>
+    I am also interested in sampling, statistical estimation, and classical learning theory, areas in which I have worked on.
+</p> 
+
+<p>
+    Across these topics, I tend to gravitate toward problems with an extremal or optimization flavor. I especially like clean theoretical questions where one can identify fundamental objects, prove sharp optimality-style results, and obtain guarantees that clarify either the design of better algorithms or the limitations of existing approaches.
 </p>
 
 {% if site.author.googlescholar %}
@@ -148,30 +155,27 @@ permalink: /research/
 
 <h2>Research Directions &amp; Selected Works</h2>
 
-<div class="research-block">
+<div class="research-section">
     <h3>Learning in Adaptive Environments</h3>
-    <p>
-        I work on the theoretical foundations of learning in dynamic and interactive settings, including online learning, reinforcement learning, and learning in games. 
-    </p>
 </div>
 
-<div class="research-block">
-    <h3>Theoretical Foundations of Deep Learning &amp; Generative Models</h3>
-    <p>
-        I am interested in developing a deeper mathematical understanding of the empirical success of modern machine learning, with the broader goal of informing the design of better algorithms. My work has included approximation-theoretic aspects of deep learning, such as questions about the expressivity of neural networks and continuous-state sequence models. I have also been interested in other aspects of deep learning theory, including weak-to-strong generalization and theoretical questions surrounding diffusion models.
-    </p>
+<div class="research-section">
+    <h3>Deep Learning Theory</h3>
+
+    <div class="work-item">
+        <div class="work-title">The Accumulation of Score Estimation Error in Diffusion Models</a></div>
+        <div class="work-authors"><a href="https://openreview.net/profile?id=~Baoxiang_He1">Baoxiang He</a>, <strong>Valentio Iverson</strong>, <a href="https://openreview.net/profile?id=~Shuai_Li23">Shuai Li</a>, <a href="https://openreview.net/profile?id=~Cheng_Chen30">Cheng Chen</a>, <a href="https://openreview.net/profile?id=~Bo_Jiang4">Bo Jiang</a></div>
+        <div class="work-status">Submitted for Review</div>
+    </div>
 </div>
 
-<div class="research-block">
+<div class="research-section">
     <h3>Sampling &amp; Statistical Estimation</h3>
-    <p>
-        I work on the algorithmic and information-theoretic foundations of statistical estimation and sampling, especially in high-dimensional settings. I have also worked on related questions in privacy, robustness, and stability.
-    </p>
 
     <div class="work-item">
         <div class="work-title"><a href="https://arxiv.org/abs/2503.01766">Optimal Differentially Private Sampling of Unbounded Gaussians</a></div>
         <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="http://www.gautamkamath.com/">Gautam Kamath</a>, <a href="https://argymouz.github.io/">Argyris Mouzakis</a></div>
-        <div class="work-status">Accepted to Conference on Learning Theory (COLT) 2025 and Theory and Practice of Differential Privacy (TPDP) 2025</div>
+        <div class="work-status">Conference on Learning Theory (COLT) 2025 and Theory and Practice of Differential Privacy (TPDP) 2025</div>
     </div>
 
     <div class="work-item">
@@ -181,11 +185,8 @@ permalink: /research/
     </div>
 </div>
 
-<div class="research-block">
+<div class="research-section">
     <h3>Classical Learning Theory</h3>
-    <p>
-        I am also interested in classical learning-theoretic frameworks that help formalize modern learning problems. I have worked on how additional feedback structures, such as discriminative feature feedback or contrastive information, can enrich classical learning setups and improve learnability.
-    </p>
 
     <div class="work-item">
         <div class="work-title">On the Importance of Randomization in Discriminative Feature Feedback</div>
@@ -200,11 +201,14 @@ permalink: /research/
     </div>
 </div>
 
-<div class="research-block">
-    <h3>Miscellaneous Projects</h3>
-    <p>
-        Beyond machine learning theory, I also work on mathematical problems of independent interest, especially in number theory, convex and discrete geometry, and combinatorics, including graph theory and extremal or additive combinatorics.
-    </p>
+<div class="research-section">
+    <h3>Other Projects</h3>
+
+    <div class="work-item">
+        <div class="work-title"><a href="https://arxiv.org/abs/2603.11069">On the 3-adic Valuation of a Cubic Binomial Sum</a></div>
+        <div class="work-authors"><strong>Valentio Iverson</strong></div>
+        <div class="work-status">Submitted for review</div>
+    </div>
 
     <div class="work-item">
         <div class="work-title"><a href="https://arxiv.org/abs/2501.09697">Squarefree Discriminants of Polynomials with Prime Coefficients</a></div>
@@ -213,21 +217,21 @@ permalink: /research/
     </div>
 
     <div class="work-item">
-        <div class="work-title"><a href="https://arxiv.org/abs/2510.10855">Multiplicatively dependent integer vectors on a hyperplane</a></div>
+        <div class="work-title"><a href="https://arxiv.org/abs/2510.10855">Multiplicatively Dependent Integer Vectors on a Hyperplane</a></div>
         <div class="work-authors"><a href="https://afifurra.github.io/">Muhammad Afifurrahman</a>, <strong>Valentio Iverson</strong>, <a href="https://mortarsanjaya.github.io/">Gian Cordana Sanjaya</a></div>
         <div class="work-status">Submitted for review</div>
     </div>
 
     <div class="work-item">
-        <div class="work-title">A Pathological Property of Nonlocal Discrete Operators</div>
-        <div class="work-authors">William Chang, Christopher Goodrich, <strong>Valentio Iverson</strong>, Khang Nguyen</div>
-        <div class="work-status">Accepted to the Proceedings of the American Mathematical Society (PAMS)</div>
+        <div class="work-title"><a href="https://www.ams.org/journals/bproc/2026-13-03/S2330-1511-2026-00278-7/">A Pathological Property of Nonlocal Discrete Operators</a></div>
+        <div class="work-authors">William Chang, Christopher S. Goodrich, <strong>Valentio Iverson</strong>, Khang Nguyen</div>
+        <div class="work-status">Proceedings of the American Mathematical Society, Series B, 13 (2026)</div>
     </div>
 
     <div class="work-item">
         <div class="work-title"><a href="https://arxiv.org/abs/2501.09291">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</a></div>
-        <div class="work-authors"><a href="https://scholar.google.com/citations?user=_izQenUAAAAJ&hl=ko">Kyeongha Rho</a>, <a href="https://scholar.google.com/citations?user=rFmAVN4AAAAJ&hl=ko">Hyeongkeun Lee</a>, <strong>Valentio Iverson</strong>, <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a></div>
-        <div class="work-status">Accepted to International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
+        <div class="work-authors"><a href="https://scholar.google.com/citations?user=_izQenUAAAAJ&amp;hl=ko">Kyeongha Rho</a>, <a href="https://scholar.google.com/citations?user=rFmAVN4AAAAJ&amp;hl=ko">Hyeongkeun Lee</a>, <strong>Valentio Iverson</strong>, <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a></div>
+        <div class="work-status">International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
     </div>
 </div>
 
