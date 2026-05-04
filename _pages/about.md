@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
 
-I am **Valentio Iverson**, an incoming graduate student in Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology (MIT), where I plan to work on theoretical foundations of machine learning. I am currently completing my undergraduate studies at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
+I am **Valentio Iverson**, an incoming graduate student in Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology (MIT), where I plan to work on theoretical foundations of machine learning. I have recently completed my undergraduate studies at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
 
 My main research interests are in machine learning theory, especially learning dynamics in games and deep learning theory. 
 
