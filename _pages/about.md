@@ -28,7 +28,10 @@ You can learn more on my [Research & Publications](/research/) page.
 
 
 ## Selected Publications & Manuscripts
-
+- **On the Importance of Randomization in Discriminative Feature Feedback**
+  **Valentio Iverson**, Tosca Lechner, Sivan Sabato. <br>
+  *Conference on Learning Theory (COLT) 2026*
+  
 - [**Optimal Differentially Private Sampling of Unbounded Gaussians**](https://arxiv.org/abs/2503.01766)  
   **Valentio Iverson**, Gautam Kamath, Argyris Mouzakis.  <br>
   *Conference on Learning Theory (COLT) 2025* and *Theory and Practice of Differential Privacy (TPDP) 2025*.
@@ -38,6 +41,8 @@ You can learn more on my [Research & Publications](/research/) page.
   *Submitted for review*.
 
 ## News
+- **May 2026**: Paper **On the Importance of Randomization in Discriminative Feature Feedback** accepted to COLT 2026.
+- **April 2026**: Paper **The Accumulation of Score Estimation Error in Diffusion Models** accepted to ICML 2026.
 - **February 2026**: Ranked among the **Top 200** scorers in the *2025 William Lowell Putnam Mathematical Competition* and was a member of the University of Waterloo’s official Putnam team (top three Putnam scorers).
 - **January 2026**: Received an **Honorable Mention** in the [**2026 CRA Outstanding Undergraduate Researcher Awards**](https://cs.uwaterloo.ca/news/cheriton-cs-students-receive-2026-cra-outstanding-undergraduate-researcher-awards).
 - **October 2025**: Paper **A Pathological Property of Nonlocal Discrete Operators** accepted to Proceedings of the AMS.
