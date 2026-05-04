@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
 
-I am **Valentio Iverson**, an incoming graduate student in Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology (MIT), where I plan to work on theoretical foundations of machine learning. I am currently completing my undergraduate studies at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
+I am **Valentio Iverson**, an incoming graduate student in Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology (MIT), where I plan to work on theoretical foundations of machine learning. I have recently completed my undergraduate studies at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
 
 My main research interests are in machine learning theory, especially learning dynamics in games and deep learning theory. 
 
@@ -28,10 +28,10 @@ You can learn more on my [Research & Publications](/research/) page.
 
 
 ## Selected Publications & Manuscripts
-- **On the Importance of Randomization in Discriminative Feature Feedback**
+- **On the Importance of Randomization in Discriminative Feature Feedback** <br>
   **Valentio Iverson**, Tosca Lechner, Sivan Sabato. <br>
   *Conference on Learning Theory (COLT) 2026*
-  
+
 - [**Optimal Differentially Private Sampling of Unbounded Gaussians**](https://arxiv.org/abs/2503.01766)  
   **Valentio Iverson**, Gautam Kamath, Argyris Mouzakis.  <br>
   *Conference on Learning Theory (COLT) 2025* and *Theory and Practice of Differential Privacy (TPDP) 2025*.
