@@ -28,10 +28,10 @@ You can learn more on my [Research & Publications](/research/) page.
 
 
 ## Selected Publications & Manuscripts
-- **On the Importance of Randomization in Discriminative Feature Feedback**
+- **On the Importance of Randomization in Discriminative Feature Feedback** <br>
   **Valentio Iverson**, Tosca Lechner, Sivan Sabato. <br>
   *Conference on Learning Theory (COLT) 2026*
-  
+
 - [**Optimal Differentially Private Sampling of Unbounded Gaussians**](https://arxiv.org/abs/2503.01766)  
   **Valentio Iverson**, Gautam Kamath, Argyris Mouzakis.  <br>
   *Conference on Learning Theory (COLT) 2025* and *Theory and Practice of Differential Privacy (TPDP) 2025*.
