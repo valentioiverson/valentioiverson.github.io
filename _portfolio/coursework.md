@@ -36,12 +36,13 @@ This page provides an overview of my coursework, selected course projects, and p
 
 ## Education
 
-- **Bachelor of Mathematics in Computer Science**, University of Waterloo — expected June 2026
-- **Bachelor of Mathematics in Combinatorics and Optimization**, University of Waterloo — expected June 2026
-- **Bachelor of Mathematics in Pure Mathematics**, University of Waterloo — expected June 2026
-- **Minor in Computational Mathematics**, University of Waterloo — expected June 2026
+- **PhD in Electrical Engineering and Computer Science**, Massachusetts Institute of Technology — 2026–present
+- **Bachelor of Mathematics in Computer Science**, University of Waterloo — June 2026
+- **Bachelor of Mathematics in Combinatorics and Optimization**, University of Waterloo — June 2026
+- **Bachelor of Mathematics in Pure Mathematics**, University of Waterloo — June 2026
+- **Minor in Computational Mathematics**, University of Waterloo — June 2026
 
-## Coursework by Area
+## Coursework by Area — University of Waterloo
 
 ### Computer Science
 
@@ -81,7 +82,7 @@ This page provides an overview of my coursework, selected course projects, and p
 
 Below are a few write-ups and presentations from coursework projects.
 
-- **PMATH 833**: *On Another Blaschke Characterization of Ellipsoid*
+- **PMATH 833**: *On Another Blaschke Characterization of Ellipsoids*  
   [Report](https://drive.google.com/file/d/1XUwuxXGFGXre_ccY78fcCYjqpkYcL21l/view?usp=sharing)
 
 - **PMATH 950**: *Blaschke’s Characterization of Ellipsoids*  
