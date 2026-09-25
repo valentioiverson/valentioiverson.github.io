@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am **Valentio Iverson**, a PhD student in Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology (MIT), where I work on the theoretical foundations of machine learning. I am fortunate to be advised by [**Gabriele Farina**](https://www.mit.edu/~gfarina/about/), and I am currently working with him on understanding lower bounds in online learning problems. I completed my Bachelor of Mathematics at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
+I am **Valentio Iverson**, a first-year PhD student in Electrical Engineering and Computer Science (EECS) at the Massachusetts Institute of Technology (MIT), where I work on the theoretical foundations of machine learning. I am fortunate to be advised by [**Gabriele Farina**](https://www.mit.edu/~gfarina/about/), and I am currently working with him on understanding lower bounds in online learning problems. I completed my Bachelor of Mathematics at the University of Waterloo in Computer Science, Pure Mathematics, and Combinatorics & Optimization, with a minor in Computational Mathematics.
 
 My main research interests are in machine learning theory, especially questions about **learning in adaptive environments** and **deep learning theory**. Broadly, I am interested in developing provable algorithms and lower bounds for simple structures or phenomena that help explain how modern learning systems behave.
 
