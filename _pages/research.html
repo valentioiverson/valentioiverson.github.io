@@ -12,115 +12,202 @@ permalink: /research/
 </script>
 
 <style>
-    .research-page {
-        font-family: 'Helvetica Neue', Arial, sans-serif;
-        line-height: 1.7;
-        color: #333;
-    }
+  .research-page {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.7;
+    color: #333;
+  }
 
-    .research-page h2 {
-        color: #222;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 5px;
-        margin-top: 1.8em;
-        margin-bottom: 0.8em;
-    }
+  .research-page h2 {
+    color: #222;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+  }
 
-    .research-page h3 {
-        color: #222;
-        margin-top: 1.5em;
-        margin-bottom: 0.45em;
-        font-size: 1.15em;
-    }
+  .research-page h3 {
+    color: #222;
+    margin-top: 1.45em;
+    margin-bottom: 0.55em;
+    font-size: 1.15em;
+  }
 
-    .research-page p {
-        margin: 10px 0;
-    }
+  .research-page p {
+    margin: 10px 0;
+  }
 
-    .research-page .lede {
-        font-size: 1.02em;
-    }
+  .research-page .lede {
+    font-size: 1.02em;
+  }
 
-    .research-page .research-section {
-        margin: 20px 0 28px 0;
-    }
+  .research-page .overview-label {
+    font-weight: 600;
+  }
 
-    .research-page .work-item,
-    .research-page .talk {
-        margin: 14px 0;
-        padding: 12px 14px;
-        background-color: #fff;
-        border-radius: 6px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-    }
+  .publication-controls {
+    margin: 18px 0 22px;
+    padding: 14px 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    background: #fafafa;
+  }
 
-    .research-page .work-title,
-    .research-page .talk-title {
-        font-weight: 600;
-        font-size: 1.06em;
-    }
+  .control-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0;
+  }
 
-    .research-page .work-title a,
-    .research-page .talk-title a {
-        text-decoration: none;
-        color: #1a73e8;
-    }
+  .control-label {
+    margin-right: 4px;
+    font-weight: 600;
+    color: #444;
+  }
 
-    .research-page .work-title a:hover,
-    .research-page .talk-title a:hover {
-        text-decoration: underline;
-    }
+  .filter-button {
+    appearance: none;
+    border: 1px solid #cfcfcf;
+    border-radius: 999px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.9em;
+    padding: 5px 11px;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
 
-    .research-page .work-authors,
-    .research-page .talk-authors {
-        font-size: 0.95em;
-        color: #333;
-        margin-top: 2px;
-    }
+  .filter-button:hover {
+    border-color: #8f8f8f;
+  }
 
-    .research-page .work-authors a,
-    .research-page .talk-authors a {
-        color: #1a73e8;
-        text-decoration: none;
-    }
+  .filter-button.active {
+    background: #333;
+    border-color: #333;
+    color: #fff;
+  }
 
-    .research-page .work-authors a:hover,
-    .research-page .talk-authors a:hover {
-        text-decoration: underline;
-    }
+  #topic-filters[hidden] {
+    display: none;
+  }
 
-    .research-page .work-status,
-    .research-page .talk-details {
-        font-style: italic;
-        color: #555;
-        font-size: 0.9em;
-        margin-top: 2px;
-    }
+  .publication-group {
+    margin: 0 0 28px;
+  }
 
-    .research-page .gratitude {
-        margin-top: 30px;
-        font-size: 0.92em;
-        color: #444;
-        border-top: 1px solid #ddd;
-        padding-top: 15px;
-    }
+  .publication-group-title {
+    margin-top: 1.55em !important;
+  }
 
-    .research-page .gratitude a {
-        color: #1a73e8;
-        text-decoration: none;
-    }
+  .work-item,
+  .talk {
+    margin: 12px 0;
+    padding: 12px 14px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
 
-    .research-page .gratitude a:hover {
-        text-decoration: underline;
-    }
+  .work-title,
+  .talk-title {
+    font-weight: 600;
+    font-size: 1.04em;
+    line-height: 1.45;
+  }
 
-    .research-page .last-updated {
-        font-size: 0.85em;
-        color: #666;
-        text-align: center;
-        margin-top: 24px;
-        font-style: italic;
+  .work-title a,
+  .talk-title a,
+  .work-authors a,
+  .talk-authors a,
+  .research-page .gratitude a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+
+  .work-title a:hover,
+  .talk-title a:hover,
+  .work-authors a:hover,
+  .talk-authors a:hover,
+  .research-page .gratitude a:hover {
+    text-decoration: underline;
+  }
+
+  .work-authors,
+  .talk-authors {
+    margin-top: 3px;
+    color: #333;
+    font-size: 0.94em;
+  }
+
+  .work-meta,
+  .talk-details {
+    margin-top: 4px;
+    color: #555;
+    font-size: 0.9em;
+  }
+
+  .venue-badge {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 1px 7px;
+    border: 1px solid #d4d4d4;
+    border-radius: 999px;
+    background: #f7f7f7;
+    color: #444;
+    font-size: 0.88em;
+    font-style: normal;
+    white-space: nowrap;
+  }
+
+  .venue-badge.preprint {
+    border-style: dashed;
+    background: #fff;
+  }
+
+  .representative-star {
+    display: inline-block;
+    margin-right: 5px;
+    color: #333;
+    font-size: 1.02em;
+    line-height: 1;
+  }
+
+  .representative-note {
+    margin: -7px 0 18px;
+    color: #666;
+    font-size: 0.9em;
+  }
+
+  .publication-empty {
+    color: #666;
+    font-style: italic;
+  }
+
+  .research-page .gratitude {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #444;
+    font-size: 0.92em;
+  }
+
+  .research-page .last-updated {
+    margin-top: 24px;
+    color: #666;
+    text-align: center;
+    font-size: 0.85em;
+    font-style: italic;
+  }
+
+  @media (max-width: 600px) {
+    .control-label {
+      width: 100%;
     }
+  }
 </style>
 
 <div class="research-page">
@@ -128,124 +215,153 @@ permalink: /research/
 <h2>Research Overview</h2>
 
 <p class="lede">
-    My research is in machine learning theory, with a focus on learning theory for adaptive and modern machine learning systems.
+  I am interested in developing provable algorithms and lower bounds for simple structures or phenomena that explain learning in interactive, adaptive, and modern machine learning systems. To be more precise:
 </p>
 
 <ul class="overview-list">
-    <li>
-        <span class="overview-label">Adaptive environments.</span>
-        I am mainly interested in learning dynamics in games and reinforcement learning. I have previously worked on questions about online learning algorithm design and equilibrium.
-    </li>
-
-    <li>
-        <span class="overview-label">Deep learning theory.</span>
-        I study theoretical questions arising from modern machine learning systems. So far, I have been interested in understanding phenomenon and limitations of modern machine learning systems. This leads me to work with model expressivity, neural networks and diffusion models.
-    </li>
-
-    <li>
-        <span class="overview-label">Related areas.</span>
-        I have also worked on sampling, statistical estimation, privacy, and classical learning theory.
-    </li>
+  <li>
+    <span class="overview-label">Online learning &amp; learning in adaptive environments.</span>
+    I am interested in online learning, learning dynamics in games, reinforcement learning.
+  </li>
+  <li>
+    <span class="overview-label">Deep learning theory.</span>
+    I am interested in optimization and learning dynamics, model expressivity, and generative models such as diffusion models.
+  </li>
+  <li>
+    <span class="overview-label">Sampling &amp; statistical estimation.</span>
+    I am interested in a lot of algorithmic statistics related question, especially sampling and robustness.
+  </li>
+  <li>
+    <span class="overview-label">Classical learning theory.</span>
+    I am interested in classical PAC learning theory or related style frameworks about sample complexity of learning, active learning, etc.
+  </li>
 </ul>
 
 <p>
-    Across these topics, I tend to gravitate toward clean theoretical questions with an extremal or optimization flavor: lower bounds, sharp thresholds, minimax rates, optimality guarantees, expressivity, and learning dynamics.
+  Across these areas, I tend to gravitate toward clean theoretical questions with an extremal or optimization flavor: sharp thresholds, minimax rates, optimality guarantees and lower bounds.
 </p>
 
 {% if site.author.googlescholar %}
-    <p>You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
+<p>You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
 {% endif %}
 
-<p>If you are interested in collaborating, feel free to reach out at <a href="mailto:viverson@uwaterloo.ca">viverson@uwaterloo.ca</a>.</p>
+<p>If you are interested in collaborating, feel free to reach out at <a href="mailto:viverson@mit.edu">viverson@mit.edu</a>.</p>
 
-<h2>Research Directions &amp; Selected Works</h2>
+<h2>Publications &amp; Preprints</h2>
 
-<div class="research-section">
-    <h3>Learning in Adaptive Environments</h3>
+<div class="publication-controls" aria-label="Publication filters">
+  <div class="control-row">
+    <span class="control-label">Group by:</span>
+    <button class="filter-button group-button active" type="button" data-group="year">Year</button>
+    <button class="filter-button group-button" type="button" data-group="topic">Topic</button>
+  </div>
+  <div class="control-row" id="topic-filters" hidden>
+    <span class="control-label">Topic:</span>
+    <button class="filter-button topic-button active" type="button" data-topic="all">All</button>
+    <button class="filter-button topic-button" type="button" data-topic="online">Online Learning &amp; Adaptive Environments</button>
+    <button class="filter-button topic-button" type="button" data-topic="deep">Deep Learning Theory</button>
+    <button class="filter-button topic-button" type="button" data-topic="sampling">Sampling &amp; Statistical Estimation</button>
+    <button class="filter-button topic-button" type="button" data-topic="classical">Classical Learning Theory</button>
+    <button class="filter-button topic-button" type="button" data-topic="other">Other Projects</button>
+  </div>
 </div>
 
-<div class="research-section">
-    <h3>Deep Learning Theory</h3>
+<p class="representative-note"><span class="representative-star" aria-hidden="true">★</span> denotes representative work.</p>
 
-    <div class="work-item">
-        <div class="work-title">The Accumulation of Score Estimation Error in Diffusion Models</a></div>
-        <div class="work-authors"><a href="https://openreview.net/profile?id=~Baoxiang_He1">Baoxiang He</a>, <strong>Valentio Iverson</strong>, <a href="https://openreview.net/profile?id=~Shuai_Li23">Shuai Li</a>, <a href="https://openreview.net/profile?id=~Cheng_Chen30">Cheng Chen</a>, <a href="https://openreview.net/profile?id=~Bo_Jiang4">Bo Jiang</a></div>
-        <div class="work-status">International Conference on Machine Learning (ICML) 2026</div>
-    </div>
-</div>
+<div id="publication-list">
 
-<div class="research-section">
-    <h3>Sampling &amp; Statistical Estimation</h3>
+  <article class="work-item" data-year="2026" data-topic="sampling" data-order="1">
+    <div class="work-title"><span class="representative-star" title="Representative work" aria-label="Representative work">★</span><a href="https://arxiv.org/abs/2605.21860">Robust Statistical Estimators with Bounded Empirical Sensitivity</a></div>
+    <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="http://www.gautamkamath.com/">Gautam Kamath</a>, <a href="https://argymouz.github.io/">Argyris Mouzakis</a>, Adam Smith</div>
+    <div class="work-meta"><span class="venue-badge">NeurIPS 2026</span> Neural Information Processing Systems</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title"><a href="https://arxiv.org/abs/2503.01766">Optimal Differentially Private Sampling of Unbounded Gaussians</a></div>
-        <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="http://www.gautamkamath.com/">Gautam Kamath</a>, <a href="https://argymouz.github.io/">Argyris Mouzakis</a></div>
-        <div class="work-status">Conference on Learning Theory (COLT) 2025 and Theory and Practice of Differential Privacy (TPDP) 2025</div>
-    </div>
+  <article class="work-item" data-year="2026" data-topic="online" data-order="2">
+    <div class="work-title"><a href="https://proceedings.mlr.press/v337/guo26b.html">Provably Efficient Reinforcement Learning in Continuous-Time Episodic MDPs with Poisson Decision Epochs</a></div>
+    <div class="work-authors">Kenny Guo, <strong>Valentio Iverson</strong>, Sahan Wijetunga, William Chang</div>
+    <div class="work-meta"><span class="venue-badge">UAI 2026</span> Conference on Uncertainty in Artificial Intelligence</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title"><a href="https://arxiv.org/abs/2501.10172">Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization</a></div>
-        <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a></div>
-        <div class="work-status">Submitted for review</div>
-    </div>
-</div>
+  <article class="work-item" data-year="2026" data-topic="online" data-order="3">
+    <div class="work-title"><a href="https://proceedings.mlr.press/v337/nguyen26b.html">Tight Rates of Approximation of Mixed Nash Equilibria by Entropy Regularization in Continuous Games</a></div>
+    <div class="work-authors">Khang Nguyen, <strong>Valentio Iverson</strong>, Sahan Wijetunga, William Chang, Guillaume Wang</div>
+    <div class="work-meta"><span class="venue-badge">UAI 2026</span> Conference on Uncertainty in Artificial Intelligence</div>
+  </article>
 
-<div class="research-section">
-    <h3>Classical Learning Theory</h3>
+  <article class="work-item" data-year="2026" data-topic="online" data-order="4">
+    <div class="work-title"><span class="representative-star" title="Representative work" aria-label="Representative work">★</span><a href="https://proceedings.mlr.press/v336/iverson26a.html">On the Importance of Randomization in Discriminative Feature Feedback</a></div>
+    <div class="work-authors"><strong>Valentio Iverson</strong>, Tosca Lechner, Sivan Sabato</div>
+    <div class="work-meta"><span class="venue-badge">COLT 2026</span> Conference on Learning Theory</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title">On the Importance of Randomization in Discriminative Feature Feedback</div>
-        <div class="work-authors"><strong>Valentio Iverson</strong>, Tosca Lechner, Sivan Sabato</div>
-        <div class="work-status">Conference on Learning Theory (COLT) 2026</div>
-    </div>
+  <article class="work-item" data-year="2026" data-topic="deep" data-order="5">
+    <div class="work-title"><a href="https://openreview.net/forum?id=YoGDpLRqN8">The Accumulation of Score Estimation Error in Diffusion Models</a></div>
+    <div class="work-authors"><a href="https://openreview.net/profile?id=~Baoxiang_He1">Baoxiang He</a>, <strong>Valentio Iverson</strong>, <a href="https://openreview.net/profile?id=~Shuai_Li23">Shuai Li</a>, <a href="https://openreview.net/profile?id=~Cheng_Chen30">Cheng Chen</a>, <a href="https://openreview.net/profile?id=~Bo_Jiang4">Bo Jiang</a></div>
+    <div class="work-meta"><span class="venue-badge">ICML 2026</span> International Conference on Machine Learning</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title">Learning Half-Spaces from Perturbed Contrastive Examples</div>
-        <div class="work-authors">Aryan Alavi Razavi Ravari, Farnam Mansouri, Yuxin Chen, <strong>Valentio Iverson</strong>, Adish Singla, Sandra Zilles</div>
-        <div class="work-status">Submitted for review</div>
-    </div>
-</div>
+  <article class="work-item" data-year="2026" data-topic="classical" data-order="6">
+    <div class="work-title"><a href="https://arxiv.org/abs/2602.02080">Learning Half-Spaces from Perturbed Contrastive Examples</a></div>
+    <div class="work-authors">Aryan Alavi Razavi Ravari, Farnam Mansouri, Yuxin Chen, <strong>Valentio Iverson</strong>, Adish Singla, Sandra Zilles</div>
+    <div class="work-meta"><span class="venue-badge preprint">Preprint</span> arXiv:2602.02080</div>
+  </article>
 
-<div class="research-section">
-    <h3>Other Projects</h3>
+  <article class="work-item" data-year="2026" data-topic="other" data-order="7">
+    <div class="work-title"><a href="https://www.worldscientific.com/doi/pdf/10.1142/S1793042127500187">On a Conjecture about the 3-adic Valuation of a Binomial Sum</a></div>
+    <div class="work-authors">Sonika Dhillon, <strong>Valentio Iverson</strong>, Shanta Laishram</div>
+    <div class="work-meta"><span class="venue-badge">IJNT</span> International Journal of Number Theory, forthcoming</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title"><a href="https://arxiv.org/abs/2603.11069">On the 3-adic Valuation of a Cubic Binomial Sum</a></div>
-        <div class="work-authors"><strong>Valentio Iverson</strong></div>
-        <div class="work-status">Submitted for review</div>
-    </div>
+  <article class="work-item" data-year="2026" data-topic="other" data-order="8">
+    <div class="work-title"><a href="https://arxiv.org/abs/2603.11069">On the 3-adic Valuation of a Cubic Binomial Sum</a></div>
+    <div class="work-authors"><strong>Valentio Iverson</strong></div>
+    <div class="work-meta"><span class="venue-badge preprint">Preprint</span> arXiv:2603.11069</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title"><a href="https://arxiv.org/abs/2501.09697">Squarefree Discriminants of Polynomials with Prime Coefficients</a></div>
-        <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/pure-mathematics/contacts/gian-cordana-sanjaya">Gian Cordana Sanjaya</a>, <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a></div>
-        <div class="work-status">Submitted for review</div>
-    </div>
+  <article class="work-item" data-year="2026" data-topic="other" data-order="9">
+    <div class="work-title"><a href="https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.70631">Multiplicatively Dependent Integer Vectors on a Hyperplane</a></div>
+    <div class="work-authors"><a href="https://afifurra.github.io/">Muhammad Afifurrahman</a>, <strong>Valentio Iverson</strong>, <a href="https://mortarsanjaya.github.io/">Gian Cordana Sanjaya</a></div>
+    <div class="work-meta"><span class="venue-badge">JLMS 2026</span> Journal of the London Mathematical Society</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title"><a href="https://arxiv.org/abs/2510.10855">Multiplicatively Dependent Integer Vectors on a Hyperplane</a></div>
-        <div class="work-authors"><a href="https://afifurra.github.io/">Muhammad Afifurrahman</a>, <strong>Valentio Iverson</strong>, <a href="https://mortarsanjaya.github.io/">Gian Cordana Sanjaya</a></div>
-        <div class="work-status">Submitted for review</div>
-    </div>
+  <article class="work-item" data-year="2026" data-topic="other" data-order="10">
+    <div class="work-title"><a href="https://www.ams.org/journals/bproc/2026-13-03/S2330-1511-2026-00278-7/">A Pathological Property of Nonlocal Discrete Operators</a></div>
+    <div class="work-authors">William Chang, Christopher S. Goodrich, <strong>Valentio Iverson</strong>, Khang Nguyen</div>
+    <div class="work-meta"><span class="venue-badge">PAMS-B 2026</span> Proceedings of the American Mathematical Society, Series B, 13 (2026)</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title"><a href="https://www.ams.org/journals/bproc/2026-13-03/S2330-1511-2026-00278-7/">A Pathological Property of Nonlocal Discrete Operators</a></div>
-        <div class="work-authors">William Chang, Christopher S. Goodrich, <strong>Valentio Iverson</strong>, Khang Nguyen</div>
-        <div class="work-status">Proceedings of the American Mathematical Society, Series B, 13 (2026)</div>
-    </div>
+  <article class="work-item" data-year="2025" data-topic="sampling" data-order="11">
+    <div class="work-title"><span class="representative-star" title="Representative work" aria-label="Representative work">★</span><a href="https://proceedings.mlr.press/v291/iverson25a.html">Optimal Differentially Private Sampling of Unbounded Gaussians</a></div>
+    <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="http://www.gautamkamath.com/">Gautam Kamath</a>, <a href="https://argymouz.github.io/">Argyris Mouzakis</a></div>
+    <div class="work-meta"><span class="venue-badge">COLT 2025</span> Conference on Learning Theory; also TPDP 2025</div>
+  </article>
 
-    <div class="work-item">
-        <div class="work-title"><a href="https://arxiv.org/abs/2501.09291">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</a></div>
-        <div class="work-authors"><a href="https://scholar.google.com/citations?user=_izQenUAAAAJ&amp;hl=ko">Kyeongha Rho</a>, <a href="https://scholar.google.com/citations?user=rFmAVN4AAAAJ&amp;hl=ko">Hyeongkeun Lee</a>, <strong>Valentio Iverson</strong>, <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a></div>
-        <div class="work-status">International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</div>
-    </div>
+  <article class="work-item" data-year="2025" data-topic="sampling" data-order="12">
+    <div class="work-title"><span class="representative-star" title="Representative work" aria-label="Representative work">★</span><a href="https://arxiv.org/abs/2501.10172">Mean and Variance Estimation Complexity in Arbitrary Distributions via Wasserstein Minimization</a></div>
+    <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/scholar/vavasis">Stephen Vavasis</a></div>
+    <div class="work-meta"><span class="venue-badge preprint">Preprint</span> Submitted to Journal of Global Optimization</div>
+  </article>
+
+  <article class="work-item" data-year="2025" data-topic="other" data-order="13">
+    <div class="work-title"><a href="https://arxiv.org/abs/2501.09697">Squarefree Discriminants of Polynomials with Prime Coefficients</a></div>
+    <div class="work-authors"><strong>Valentio Iverson</strong>, <a href="https://uwaterloo.ca/pure-mathematics/contacts/gian-cordana-sanjaya">Gian Cordana Sanjaya</a>, <a href="https://www.math.uwaterloo.ca/~x46wang/">Xiaoheng Wang</a></div>
+    <div class="work-meta"><span class="venue-badge preprint">Preprint</span> Submitted to Forum of Mathematics, Sigma</div>
+  </article>
+
+  <article class="work-item" data-year="2025" data-topic="other" data-order="14">
+    <div class="work-title"><a href="https://arxiv.org/abs/2501.09291">LAVCap: LLM-based Audio-Visual Captioning using Optimal Transport</a></div>
+    <div class="work-authors"><a href="https://scholar.google.com/citations?user=_izQenUAAAAJ&amp;hl=ko">Kyeongha Rho</a>, <a href="https://scholar.google.com/citations?user=rFmAVN4AAAAJ&amp;hl=ko">Hyeongkeun Lee</a>, <strong>Valentio Iverson</strong>, <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a></div>
+    <div class="work-meta"><span class="venue-badge">ICASSP 2025</span> IEEE International Conference on Acoustics, Speech, and Signal Processing</div>
+  </article>
+
 </div>
 
 <h2>Talks</h2>
 
 <div class="talk">
-    <div class="talk-title"><a href="https://drive.google.com/file/d/1kweX50OeI845nNTgqzZPNwd_OYaqmmKR/view?usp=sharing">Powerfree Sieves on Prime Input</a></div>
-    <div class="talk-authors"><strong>Valentio Iverson</strong></div>
-    <div class="talk-details">University of Waterloo Student Number Theory Seminar, 2023</div>
+  <div class="talk-title"><a href="https://drive.google.com/file/d/1kweX50OeI845nNTgqzZPNwd_OYaqmmKR/view?usp=sharing">Powerfree Sieves on Prime Input</a></div>
+  <div class="talk-authors"><strong>Valentio Iverson</strong></div>
+  <div class="talk-details">University of Waterloo Student Number Theory Seminar, 2023</div>
 </div>
 
 <div class="gratitude">
@@ -257,3 +373,102 @@ permalink: /research/
 <div class="last-updated">Last updated: {{ site.time | date: "%B %Y" }}</div>
 
 </div>
+
+<script>
+(function () {
+  var list = document.getElementById('publication-list');
+  if (!list) return;
+
+  var items = Array.prototype.slice.call(list.querySelectorAll('.work-item'));
+  var groupButtons = Array.prototype.slice.call(document.querySelectorAll('.group-button'));
+  var topicButtons = Array.prototype.slice.call(document.querySelectorAll('.topic-button'));
+  var topicFilters = document.getElementById('topic-filters');
+
+  var topicNames = {
+    online: 'Online Learning & Learning in Adaptive Environments',
+    deep: 'Deep Learning Theory',
+    sampling: 'Sampling & Statistical Estimation',
+    classical: 'Classical Learning Theory',
+    other: 'Other Projects'
+  };
+
+  var topicOrder = ['online', 'deep', 'sampling', 'classical', 'other'];
+  var mode = 'year';
+  var selectedTopic = 'all';
+
+  function clearGroups() {
+    while (list.firstChild) list.removeChild(list.firstChild);
+  }
+
+  function makeGroup(title, groupItems) {
+    if (!groupItems.length) return;
+
+    var section = document.createElement('section');
+    section.className = 'publication-group';
+
+    var heading = document.createElement('h3');
+    heading.className = 'publication-group-title';
+    heading.textContent = title;
+    section.appendChild(heading);
+
+    groupItems.forEach(function (item) {
+      section.appendChild(item);
+    });
+
+    list.appendChild(section);
+  }
+
+  function render() {
+    clearGroups();
+
+    if (mode === 'year') {
+      var years = Array.from(new Set(items.map(function (item) {
+        return item.getAttribute('data-year');
+      }))).sort(function (a, b) {
+        return Number(b) - Number(a);
+      });
+
+      years.forEach(function (year) {
+        var groupItems = items
+          .filter(function (item) { return item.getAttribute('data-year') === year; })
+          .sort(function (a, b) {
+            return Number(a.getAttribute('data-order')) - Number(b.getAttribute('data-order'));
+          });
+        makeGroup(year, groupItems);
+      });
+      return;
+    }
+
+    var visibleTopics = selectedTopic === 'all' ? topicOrder : [selectedTopic];
+    visibleTopics.forEach(function (topic) {
+      var groupItems = items
+        .filter(function (item) { return item.getAttribute('data-topic') === topic; })
+        .sort(function (a, b) {
+          var yearDiff = Number(b.getAttribute('data-year')) - Number(a.getAttribute('data-year'));
+          if (yearDiff !== 0) return yearDiff;
+          return Number(a.getAttribute('data-order')) - Number(b.getAttribute('data-order'));
+        });
+      makeGroup(topicNames[topic], groupItems);
+    });
+  }
+
+  groupButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      mode = button.getAttribute('data-group');
+      groupButtons.forEach(function (b) { b.classList.toggle('active', b === button); });
+      topicFilters.hidden = mode !== 'topic';
+      render();
+    });
+  });
+
+  topicButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      selectedTopic = button.getAttribute('data-topic');
+      topicButtons.forEach(function (b) { b.classList.toggle('active', b === button); });
+      render();
+    });
+  });
+
+  render();
+})();
+</script>
