@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Valentio Iverson"
 title_separator          : "-"
 name                     : &name "Valentio Iverson"
-description              : &description "PhD EECS at MIT with interest in learning theory"
+description              : &description "PhD in EECS at MIT with interest in learning theory"
 url                      : https://valentioiverson.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "valentioiverson/valentioiverson.github.io"
@@ -24,11 +24,11 @@ author:
   avatar           : "photo_03_2026.png"
   name             : "Valentio Iverson"
   pronouns         : # "he/him"
-  bio              : "PhD EECS at MIT with interest in learning theory"
-  location         : "Ontario, Canada"
-  employer         : "University of Waterloo"
+  bio              : "PhD in EECS at MIT with interest in learning theory"
+  location         : "Cambridge, USA"
+  employer         : "Massachusetts Institute of Technology"
   uri              : # URL
-  email            : "viverson@uwaterloo.ca" 
+  email            : "viverson@mit.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
