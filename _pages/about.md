@@ -45,7 +45,7 @@ For more details, see my [Research & Publications](/research/) page.
   *Preprint; submitted to Journal of Global Optimization*
 
 ## News
-
+- **November 23, 2026**: [**Squarefree discriminants of polynomials with prime coefficients**](https://arxiv.org/abs/2501.09697) was accepted to Finite Fields and Their Applications.
 - **September 24, 2026**: [**Robust Statistical Estimators with Bounded Empirical Sensitivity**](https://arxiv.org/abs/2605.21860) was accepted to NeurIPS 2026.
 - **September 9, 2026**: Officially started my PhD in MIT EECS. Pretty excited for what's to come!
 - **September 3, 2026**: [**On a Conjecture about the 3-adic Valuation of a Binomial Sum**](https://www.worldscientific.com/doi/abs/10.1142/S1793042127500187) was accepted to the *International Journal of Number Theory*.
